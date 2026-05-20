@@ -1,0 +1,6702 @@
+{
+  "widthPx": "1920",
+  "heightPx": "1080",
+  "gridWidth": "8",
+  "gridHeight": "4",
+  "dashboardId": 8440529,
+  "queryParameters": {
+    "startDate": "2023-12-17"
+  },
+  "dateQueryParameters": {
+    "startDate": "subtract(1year)",
+    "endDate": "subtract(0day)"
+  },
+  "fldParamMap": {},
+  "container": {
+    "componentName": "dashboard-container-gradient-js-large"
+  },
+  "panels": [
+    {
+      "zIndex": 0,
+      "widthPx": 1920,
+      "heightPx": 80,
+      "leftPx": 0,
+      "topPx": -8,
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "dashboard-title-hsa-1",
+          "text": "医疗总览",
+          "letterSpacing": "15px",
+          "queryUrl": "",
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": true,
+        "popupId": 0
+      },
+      "panelId": 110044240,
+      "id": 110044240
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "text-12",
+          "queryInterval": 60000,
+          "currentIndex": 0,
+          "defaultData": [
+            {
+              "text": "医疗资源",
+              "url": "#/dashboard-release/8440529"
+            },
+            {
+              "text": "医疗服务",
+              "url": "#/dashboard-release/8440544"
+            },
+            {
+              "text": "中医药服务",
+              "url": "#/dashboard-release/8440545"
+            },
+            {
+              "text": "便民服务",
+              "url": "#/dashboard-release/8440543"
+            },
+            {
+              "text": "医改监测",
+              "url": "#/dashboard-release/8440574"
+            },
+            {
+              "text": "居民健康",
+              "url": "#/dashboard-release/8440561"
+            }
+          ],
+          "dataDefinition": {
+            "textColumn": "text",
+            "urlColumn": "url",
+            "disabledColumn": "disabled"
+          }
+        },
+        "titleText": "",
+        "titleIcon": "dash",
+        "isSmallTitle": false,
+        "color": "purple",
+        "visible": true,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "moved": false,
+      "static": true,
+      "leftPx": 0,
+      "topPx": 76,
+      "widthPx": 1920,
+      "heightPx": 56,
+      "zIndex": 19,
+      "panelId": 110044247,
+      "id": 110044247
+    },
+    {
+      "widthPx": 304,
+      "heightPx": 892,
+      "leftPx": 40,
+      "topPx": 160,
+      "zIndex": 100,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isSender": true,
+          "sendToPanelIds": [
+            110046813,
+            110046907
+          ]
+        },
+        "chart": {
+          "componentName": "text-list-2",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 6e+24,
+          "defaultSelectedId": "11",
+          "defaultData": [
+            {
+              "id": "11",
+              "text": "医疗机构",
+              "children": [],
+              "showPanelIds": [
+                110045709,
+                110044249,
+                110044252,
+                110044253,
+                110044280,
+                110044281,
+                110044282,
+                110044283,
+                110044251,
+                110044258,
+                110044261,
+                110044260,
+                110045303,
+                110046907
+              ]
+            },
+            {
+              "id": "12",
+              "text": "医疗床位",
+              "children": [],
+              "showPanelIds": [
+                110045709,
+                110044263,
+                110044264,
+                110044265,
+                110044266,
+                110044284,
+                110044285,
+                110044286,
+                110044251,
+                110044258,
+                110044261,
+                110044260,
+                110044281,
+                110046813
+              ]
+            },
+            {
+              "id": "13",
+              "disabled": "",
+              "text": "卫技人员",
+              "children": [],
+              "showPanelIds": [
+                110045709,
+                110044255,
+                110044256,
+                110044257,
+                110044259,
+                110044262,
+                110044251,
+                110044258,
+                110044261,
+                110044260,
+                110044307,
+                110044308,
+                110046907
+              ]
+            },
+            {
+              "id": "14",
+              "text": "万元以上医疗设备",
+              "showPanelIds": [
+                110045709,
+                110044294,
+                110044251,
+                110044258,
+                110044261,
+                110044296,
+                110044297,
+                110044299,
+                110045172,
+                110045179,
+                110044327,
+                110046907
+              ],
+              "children": []
+            },
+            {
+              "id": "15",
+              "text": "三四级手术",
+              "disabled": "no",
+              "showPanelIds": [
+                110045729,
+                110045730,
+                110045731,
+                110045732,
+                110045733,
+                110045734,
+                110045735,
+                110045736,
+                110045737,
+                110045738,
+                110045739,
+                110045740,
+                110044285
+              ],
+              "children": []
+            },
+            {
+              "id": "5",
+              "text": "限制性技术",
+              "disabled": "no",
+              "showPanelIds": [
+                110044298,
+                110044251,
+                110044258,
+                110044261,
+                110044260,
+                110044316,
+                110044317,
+                110044318,
+                110044319,
+                110044320,
+                110044321
+              ],
+              "children": []
+            },
+            {
+              "id": "7",
+              "text": "采供血",
+              "disabled": "no",
+              "showPanelIds": [
+                110044309,
+                110044311,
+                110044312,
+                110044313,
+                110044314,
+                110044315,
+                110044251,
+                110044258,
+                110044261,
+                110044260
+              ]
+            },
+            {
+              "id": "8",
+              "text": "救护车",
+              "disabled": "no",
+              "showPanelIds": [
+                110044255,
+                110044256,
+                110044257,
+                110044259,
+                110044262,
+                110044251,
+                110044258,
+                110044261,
+                110044260,
+                110044307,
+                110044308
+              ],
+              "children": []
+            },
+            {
+              "id": "9",
+              "text": "重症床位",
+              "showPanelIds": [],
+              "disabled": "no",
+              "children": []
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": true,
+        "popupId": 0
+      },
+      "panelId": 110044248,
+      "id": 110044248
+    },
+    {
+      "widthPx": 344,
+      "heightPx": 764,
+      "leftPx": 352,
+      "topPx": 204,
+      "zIndex": 101,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "querytime",
+          "isSender": true,
+          "sendToPanelIds": [
+            110044252,
+            110044253,
+            110044282,
+            110044283
+          ]
+        },
+        "chart": {
+          "componentName": "text-list-6-1",
+          "showBar": false,
+          "dividerLeft": "55%",
+          "queryUrl": "",
+          "queryId": 110044249,
+          "queryInterval": 0,
+          "dataDefinition": {
+            "nameColumn": "name",
+            "valueColumn": "value",
+            "unitColumn": "unit",
+            "colorColumn": "color",
+            "flagColumn": "flag",
+            "linkColumn": "code",
+            "disabledColumn": "disabled",
+            "panelColumn": "panel"
+          },
+          "defaultData": [
+            {
+              "name": "全部",
+              "value": 3500,
+              "unit": "人次",
+              "color": "#007bff",
+              "flag": 1
+            },
+            {
+              "name": "三级医院",
+              "value": 890,
+              "unit": "人次",
+              "color": "#0AB0DE",
+              "flag": 0
+            },
+            {
+              "name": "二级医院",
+              "value": 1200,
+              "unit": "人次",
+              "color": "#28a745",
+              "flag": 0
+            },
+            {
+              "name": "一级医院",
+              "value": 650,
+              "unit": "人次",
+              "color": "#CEA427",
+              "flag": 0
+            },
+            {
+              "name": "未定级医院",
+              "value": 420,
+              "unit": "人次",
+              "color": "#fd7e14",
+              "flag": 0
+            },
+            {
+              "name": "基层机构",
+              "value": 280,
+              "unit": "人次",
+              "color": "#dc3545",
+              "flag": 0
+            },
+            {
+              "name": "诊所门诊部",
+              "value": 450,
+              "unit": "人次",
+              "color": "#ffc107",
+              "flag": 0
+            },
+            {
+              "name": "125",
+              "value": "",
+              "unit": "",
+              "color": "#ffc107",
+              "flag": 0,
+              "disabled": "no"
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": true,
+        "popupId": 0
+      },
+      "panelId": 110044249,
+      "id": 110044249
+    },
+    {
+      "widthPx": 376,
+      "heightPx": 888,
+      "leftPx": 328,
+      "topPx": 160,
+      "zIndex": 1,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName11": "panel-fujian-2",
+          "componentName": "bg-fujian",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044250,
+      "id": 110044250
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "map-fujian-2",
+          "queryInterval": 600000,
+          "regionLevelKey": "regionLevel",
+          "queryId": 110044252,
+          "drillDownEnabled": false,
+          "showProvinceDirect": false,
+          "defaultData": [
+            {
+              "REGION_NAME": "省属",
+              "UNIT": "人次",
+              "REGION_CODE": "359900",
+              "VALUE1": "60989",
+              "VALUE2": "75635"
+            },
+            {
+              "REGION_NAME": "南平市",
+              "UNIT": "人次",
+              "REGION_CODE": "350700",
+              "VALUE1": "60989",
+              "VALUE2": "75635"
+            },
+            {
+              "REGION_NAME": "宁德市",
+              "UNIT": "人次",
+              "REGION_CODE": "350900",
+              "VALUE1": "15023",
+              "VALUE2": "76396"
+            },
+            {
+              "REGION_NAME": "福州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350100",
+              "VALUE1": "151",
+              "VALUE2": "39247"
+            },
+            {
+              "REGION_NAME": "平潭综合实验区",
+              "UNIT": "人次",
+              "REGION_CODE": "350128",
+              "VALUE1": "151",
+              "VALUE2": "39247"
+            },
+            {
+              "REGION_NAME": "莆田市",
+              "UNIT": "人次",
+              "REGION_CODE": "350300",
+              "VALUE1": "34459",
+              "VALUE2": "61279"
+            },
+            {
+              "REGION_NAME": "泉州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350500",
+              "VALUE1": "92996",
+              "VALUE2": "76343"
+            },
+            {
+              "REGION_NAME": "厦门市",
+              "UNIT": "人次",
+              "REGION_CODE": "350200",
+              "VALUE1": "59683",
+              "VALUE2": "30008"
+            },
+            {
+              "REGION_NAME": "漳州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350600",
+              "VALUE1": "33118",
+              "VALUE2": "27875"
+            },
+            {
+              "REGION_NAME": "三明市",
+              "UNIT": "人次",
+              "REGION_CODE": "350400",
+              "VALUE1": "34880",
+              "VALUE2": "58984"
+            },
+            {
+              "REGION_NAME": "龙岩市",
+              "UNIT": "人次",
+              "REGION_CODE": "350800",
+              "VALUE1": "64102",
+              "VALUE2": "355"
+            }
+          ],
+          "dataDefinition": {
+            "valueColumn": "VALUE1",
+            "regionNameColumn": "REGION_NAME",
+            "regionCodeColumn": "REGION_CODE",
+            "unitColumn": "UNIT",
+            "tooltipDefinitionList": [
+              {
+                "valueColumn": "VALUE1",
+                "name": "医疗机构数",
+                "unit": "家"
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleIcon": "dash",
+        "isSmallTitle": false,
+        "color": "purple",
+        "visible": true,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "moved": false,
+      "static": true,
+      "leftPx": 728,
+      "topPx": 268,
+      "widthPx": 664,
+      "heightPx": 672,
+      "zIndex": 19,
+      "panelId": 110044252,
+      "id": 110044252
+    },
+    {
+      "widthPx": 656,
+      "heightPx": 36,
+      "leftPx": 776,
+      "topPx": 164,
+      "zIndex": 10,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "panel-title-fujian-5-2",
+          "dataDefinition": {
+            "valueColumn": "value1",
+            "value1Column": "value2"
+          },
+          "titleText": "门急诊人次",
+          "queryUrl": "",
+          "queryId": 110044253,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": true,
+        "popupId": 0
+      },
+      "panelId": 110044253,
+      "id": 110044253
+    },
+    {
+      "widthPx": 344,
+      "heightPx": 764,
+      "leftPx": 352,
+      "topPx": 204,
+      "zIndex": 101,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "querytime",
+          "isSender": true,
+          "sendToPanelIds": [
+            110044257,
+            110044308,
+            110044259,
+            110044262,
+            110044256
+          ]
+        },
+        "chart": {
+          "componentName": "text-list-6-1",
+          "showBar": false,
+          "dividerLeft": "55%",
+          "queryUrl": "",
+          "queryId": 110044255,
+          "queryInterval": 0,
+          "dataDefinition": {
+            "nameColumn": "name",
+            "valueColumn": "value",
+            "unitColumn": "unit",
+            "colorColumn": "color",
+            "flagColumn": "flag",
+            "linkColumn": "code",
+            "panelColumn": "panel"
+          },
+          "defaultData": [
+            {
+              "name": "全部",
+              "value": 3500,
+              "unit": "人次",
+              "color": "#007bff",
+              "flag": 1
+            },
+            {
+              "name": "三级医院",
+              "value": 890,
+              "unit": "人次",
+              "color": "#0AB0DE",
+              "flag": 0
+            },
+            {
+              "name": "二级医院",
+              "value": 1200,
+              "unit": "人次",
+              "color": "#28a745",
+              "flag": 0
+            },
+            {
+              "name": "一级医院",
+              "value": 650,
+              "unit": "人次",
+              "color": "#CEA427",
+              "flag": 0
+            },
+            {
+              "name": "未定级医院",
+              "value": 420,
+              "unit": "人次",
+              "color": "#fd7e14",
+              "flag": 0
+            },
+            {
+              "name": "基层机构",
+              "value": 280,
+              "unit": "人次",
+              "color": "#dc3545",
+              "flag": 0
+            },
+            {
+              "name": "诊所门诊部",
+              "value": 450,
+              "unit": "人次",
+              "color": "#ffc107",
+              "flag": 0
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044255,
+      "id": 110044255
+    },
+    {
+      "widthPx": 656,
+      "heightPx": 36,
+      "leftPx": 776,
+      "topPx": 166,
+      "zIndex": 10,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "panel-title-fujian-5-2",
+          "dataDefinition": {
+            "valueColumn": "value1",
+            "value1Column": "value2"
+          },
+          "titleText": "门急诊人次",
+          "queryUrl": "",
+          "queryId": 110044256,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044256,
+      "id": 110044256
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "map-fujian-2",
+          "queryInterval": 600000,
+          "regionLevelKey": "regionLevel",
+          "queryId": 110044257,
+          "drillDownEnabled": false,
+          "defaultData": [
+            {
+              "REGION_NAME": "省属",
+              "UNIT": "人次",
+              "REGION_CODE": "359900",
+              "VALUE1": "60989",
+              "VALUE2": "75635"
+            },
+            {
+              "REGION_NAME": "南平市",
+              "UNIT": "人次",
+              "REGION_CODE": "350700",
+              "VALUE1": "60989",
+              "VALUE2": "75635"
+            },
+            {
+              "REGION_NAME": "宁德市",
+              "UNIT": "人次",
+              "REGION_CODE": "350900",
+              "VALUE1": "15023",
+              "VALUE2": "76396"
+            },
+            {
+              "REGION_NAME": "福州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350100",
+              "VALUE1": "151",
+              "VALUE2": "39247"
+            },
+            {
+              "REGION_NAME": "平潭综合实验区",
+              "UNIT": "人次",
+              "REGION_CODE": "350128",
+              "VALUE1": "151",
+              "VALUE2": "39247"
+            },
+            {
+              "REGION_NAME": "莆田市",
+              "UNIT": "人次",
+              "REGION_CODE": "350300",
+              "VALUE1": "34459",
+              "VALUE2": "61279"
+            },
+            {
+              "REGION_NAME": "泉州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350500",
+              "VALUE1": "92996",
+              "VALUE2": "76343"
+            },
+            {
+              "REGION_NAME": "厦门市",
+              "UNIT": "人次",
+              "REGION_CODE": "350200",
+              "VALUE1": "59683",
+              "VALUE2": "30008"
+            },
+            {
+              "REGION_NAME": "漳州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350600",
+              "VALUE1": "33118",
+              "VALUE2": "27875"
+            },
+            {
+              "REGION_NAME": "三明市",
+              "UNIT": "人次",
+              "REGION_CODE": "350400",
+              "VALUE1": "34880",
+              "VALUE2": "58984"
+            },
+            {
+              "REGION_NAME": "龙岩市",
+              "UNIT": "人次",
+              "REGION_CODE": "350800",
+              "VALUE1": "64102",
+              "VALUE2": "355"
+            }
+          ],
+          "dataDefinition": {
+            "valueColumn": "VALUE1",
+            "regionNameColumn": "REGION_NAME",
+            "regionCodeColumn": "REGION_CODE",
+            "unitColumn": "UNIT",
+            "highlightColor": "#FFA500",
+            "visualMap": [
+              {
+                "color": "#0731B1",
+                "name": "高",
+                "quantile": [
+                  0.8,
+                  1
+                ]
+              },
+              {
+                "color": "#005AEA",
+                "name": "中",
+                "quantile": [
+                  0.5,
+                  0.8
+                ]
+              },
+              {
+                "color": "#6FA0ED",
+                "name": "低",
+                "quantile": [
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleIcon": "dash",
+        "isSmallTitle": false,
+        "color": "purple",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "moved": false,
+      "static": true,
+      "leftPx": 728,
+      "topPx": 268,
+      "widthPx": 664,
+      "heightPx": 672,
+      "zIndex": 19,
+      "panelId": 110044257,
+      "id": 110044257
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "echarts-bar-line-v-23-3-fujian",
+          "queryId11": 110044259,
+          "queryId": 110044282,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "AXIS": "2014",
+              "VALUE": "2.00",
+              "VALUE1": "6",
+              "VALUE2": "20",
+              "LEGEND": "集中"
+            },
+            {
+              "AXIS": "2015",
+              "VALUE": "4.25",
+              "VALUE1": "8.17",
+              "VALUE2": 8,
+              "LEGEND": "私营"
+            },
+            {
+              "AXIS": "2016",
+              "VALUE": "4.25",
+              "VALUE1": "2.00",
+              "VALUE2": 4,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2017",
+              "VALUE": "6.00",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2018",
+              "VALUE": "9.25",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2019",
+              "VALUE": "5.00",
+              "VALUE1": "3.00",
+              "VALUE2": 9,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2020",
+              "VALUE": "9.00",
+              "VALUE1": "3.00",
+              "VALUE2": 8,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2021",
+              "VALUE": "1.00",
+              "VALUE1": "2.00",
+              "VALUE2": 6,
+              "LEGEND": ""
+            }
+          ],
+          "dataDefinition": {
+            "axisColumn": "AXIS",
+            "legendColumn": "LEGEND",
+            "unitColumn": "NAME",
+            "showLegend": true,
+            "yAxes": [
+              {
+                "name": "万人",
+                "unit": "万人",
+                "showAxisLine": true
+              }
+            ],
+            "xAxes": [
+              {
+                "show": true,
+                "interval": 0
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1400,
+      "topPx": 260,
+      "widthPx": 496,
+      "heightPx": 252,
+      "zIndex": 13,
+      "panelId": 110044259,
+      "id": 110044259
+    },
+    {
+      "widthPx": 496,
+      "heightPx": 36,
+      "leftPx": 1400,
+      "topPx": 224,
+      "zIndex": 10,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "panel-title-fujian-5",
+          "titleText": "时间分布",
+          "titleText1": "",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": true,
+        "popupId": 0
+      },
+      "panelId": 110044260,
+      "id": 110044260
+    },
+    {
+      "widthPx": 344,
+      "heightPx": 764,
+      "leftPx": 352,
+      "topPx": 200,
+      "zIndex": 101,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "querytime",
+          "isSender": true,
+          "sendToPanelIds": [
+            110044265,
+            110044264,
+            110044266,
+            110044286,
+            110044287,
+            110044289,
+            110044290
+          ]
+        },
+        "chart": {
+          "componentName": "text-list-6-1",
+          "showBar": false,
+          "dividerLeft": "55%",
+          "queryUrl": "",
+          "queryId": 110044263,
+          "queryInterval": 0,
+          "dataDefinition": {
+            "nameColumn": "name",
+            "valueColumn": "value",
+            "unitColumn": "unit",
+            "colorColumn": "color",
+            "flagColumn": "flag",
+            "linkColumn": "code",
+            "panelColumn": "panel"
+          },
+          "defaultData": [
+            {
+              "name": "全部",
+              "value": 3500,
+              "unit": "人次",
+              "color": "#007bff",
+              "flag": 1
+            },
+            {
+              "name": "三级医院",
+              "value": 890,
+              "unit": "人次",
+              "color": "#0AB0DE",
+              "flag": 0
+            },
+            {
+              "name": "二级医院",
+              "value": 1200,
+              "unit": "人次",
+              "color": "#28a745",
+              "flag": 0
+            },
+            {
+              "name": "一级医院",
+              "value": 650,
+              "unit": "人次",
+              "color": "#CEA427",
+              "flag": 0
+            },
+            {
+              "name": "未定级医院",
+              "value": 420,
+              "unit": "人次",
+              "color": "#fd7e14",
+              "flag": 0
+            },
+            {
+              "name": "基层机构",
+              "value": 280,
+              "unit": "人次",
+              "color": "#dc3545",
+              "flag": 0
+            },
+            {
+              "name": "诊所门诊部",
+              "value": 450,
+              "unit": "人次",
+              "color": "#ffc107",
+              "flag": 0
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044263,
+      "id": 110044263
+    },
+    {
+      "widthPx": 656,
+      "heightPx": 36,
+      "leftPx": 776,
+      "topPx": 164,
+      "zIndex": 10,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "panel-title-fujian-5-2",
+          "dataDefinition": {
+            "valueColumn": "value1",
+            "value1Column": "value2"
+          },
+          "titleText": "门急诊人次",
+          "queryUrl": "",
+          "queryId": 110044264,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044264,
+      "id": 110044264
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "map-fujian-2",
+          "queryInterval": 600000,
+          "regionLevelKey": "regionLevel",
+          "queryId": 110044265,
+          "drillDownEnabled": false,
+          "defaultData": [
+            {
+              "REGION_NAME": "省属",
+              "UNIT": "人次",
+              "REGION_CODE": "359900",
+              "VALUE1": "60989",
+              "VALUE2": "75635"
+            },
+            {
+              "REGION_NAME": "南平市",
+              "UNIT": "人次",
+              "REGION_CODE": "350700",
+              "VALUE1": "60989",
+              "VALUE2": "75635"
+            },
+            {
+              "REGION_NAME": "宁德市",
+              "UNIT": "人次",
+              "REGION_CODE": "350900",
+              "VALUE1": "15023",
+              "VALUE2": "76396"
+            },
+            {
+              "REGION_NAME": "福州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350100",
+              "VALUE1": "151",
+              "VALUE2": "39247"
+            },
+            {
+              "REGION_NAME": "平潭综合实验区",
+              "UNIT": "人次",
+              "REGION_CODE": "350128",
+              "VALUE1": "151",
+              "VALUE2": "39247"
+            },
+            {
+              "REGION_NAME": "莆田市",
+              "UNIT": "人次",
+              "REGION_CODE": "350300",
+              "VALUE1": "34459",
+              "VALUE2": "61279"
+            },
+            {
+              "REGION_NAME": "泉州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350500",
+              "VALUE1": "92996",
+              "VALUE2": "76343"
+            },
+            {
+              "REGION_NAME": "厦门市",
+              "UNIT": "人次",
+              "REGION_CODE": "350200",
+              "VALUE1": "59683",
+              "VALUE2": "30008"
+            },
+            {
+              "REGION_NAME": "漳州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350600",
+              "VALUE1": "33118",
+              "VALUE2": "27875"
+            },
+            {
+              "REGION_NAME": "三明市",
+              "UNIT": "人次",
+              "REGION_CODE": "350400",
+              "VALUE1": "34880",
+              "VALUE2": "58984"
+            },
+            {
+              "REGION_NAME": "龙岩市",
+              "UNIT": "人次",
+              "REGION_CODE": "350800",
+              "VALUE1": "64102",
+              "VALUE2": "355"
+            }
+          ],
+          "dataDefinition": {
+            "valueColumn": "VALUE1",
+            "regionNameColumn": "REGION_NAME",
+            "regionCodeColumn": "REGION_CODE",
+            "unitColumn": "UNIT",
+            "highlightColor": "#FFA500",
+            "visualMap": [
+              {
+                "color": "#0731B1",
+                "name": "高",
+                "quantile": [
+                  0.8,
+                  1
+                ]
+              },
+              {
+                "color": "#005AEA",
+                "name": "中",
+                "quantile": [
+                  0.5,
+                  0.8
+                ]
+              },
+              {
+                "color": "#6FA0ED",
+                "name": "低",
+                "quantile": [
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleIcon": "dash",
+        "isSmallTitle": false,
+        "color": "purple",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "moved": false,
+      "static": true,
+      "leftPx": 728,
+      "topPx": 268,
+      "widthPx": 664,
+      "heightPx": 672,
+      "zIndex": 19,
+      "panelId": 110044265,
+      "id": 110044265
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "echarts-bar-line-v-23-3-fujian",
+          "queryId11": 110044266,
+          "queryId": 110044282,
+          "queryInterval": 3600000,
+          "axiosRotate": 30,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "AXIS": "2014",
+              "VALUE": "2.00",
+              "VALUE1": "6",
+              "VALUE2": "20",
+              "LEGEND": "集中"
+            },
+            {
+              "AXIS": "2015",
+              "VALUE": "4.25",
+              "VALUE1": "8.17",
+              "VALUE2": 8,
+              "LEGEND": "私营"
+            },
+            {
+              "AXIS": "2016",
+              "VALUE": "4.25",
+              "VALUE1": "2.00",
+              "VALUE2": 4,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2017",
+              "VALUE": "6.00",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2018",
+              "VALUE": "9.25",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2019",
+              "VALUE": "5.00",
+              "VALUE1": "3.00",
+              "VALUE2": 9,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2020",
+              "VALUE": "9.00",
+              "VALUE1": "3.00",
+              "VALUE2": 8,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2021",
+              "VALUE": "1.00",
+              "VALUE1": "2.00",
+              "VALUE2": 6,
+              "LEGEND": ""
+            }
+          ],
+          "dataDefinition": {
+            "axisColumn": "AXIS",
+            "legendColumn": "LEGEND",
+            "unitColumn": "NAME",
+            "showLegend": true,
+            "yAxes": [
+              {
+                "name": "万人",
+                "unit": "万人",
+                "showAxisLine": true
+              }
+            ],
+            "xAxes": [
+              {
+                "show": true,
+                "interval": 0
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1400,
+      "topPx": 256,
+      "widthPx": 496,
+      "heightPx": 256,
+      "zIndex": 13,
+      "panelId": 110044266,
+      "id": 110044266
+    },
+    {
+      "widthPx": 216,
+      "heightPx": 36,
+      "leftPx": 1168,
+      "topPx": 884,
+      "zIndex": 103,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "classtype",
+          "isSender": true,
+          "sendToPanelIds": [
+            110044249,
+            110044263
+          ]
+        },
+        "chart": {
+          "componentName": "tab-group-12",
+          "queryUrl": "",
+          "queryId": null,
+          "hidden": true,
+          "queryInterval": 6e+23,
+          "selectedTabIndex": 2,
+          "defaultData": [
+            {
+              "text": "昨日",
+              "value": 1
+            },
+            {
+              "text": "按月",
+              "value": 2
+            },
+            {
+              "text": "按年",
+              "value": 3
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": true,
+        "popupId": 0
+      },
+      "panelId": 110044281,
+      "id": 110044281
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "echarts-bar-line-v-23-3-fujian",
+          "queryId": 110044282,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "AXIS": "2014",
+              "VALUE": "2.00",
+              "VALUE1": "6",
+              "VALUE2": "20",
+              "LEGEND": "集中"
+            },
+            {
+              "AXIS": "2015",
+              "VALUE": "4.25",
+              "VALUE1": "8.17",
+              "VALUE2": 8,
+              "LEGEND": "私营"
+            },
+            {
+              "AXIS": "2016",
+              "VALUE": "4.25",
+              "VALUE1": "2.00",
+              "VALUE2": 4,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2017",
+              "VALUE": "6.00",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2018",
+              "VALUE": "9.25",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2019",
+              "VALUE": "5.00",
+              "VALUE1": "3.00",
+              "VALUE2": 9,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2020",
+              "VALUE": "9.00",
+              "VALUE1": "3.00",
+              "VALUE2": 8,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2021",
+              "VALUE": "1.00",
+              "VALUE1": "2.00",
+              "VALUE2": 6,
+              "LEGEND": ""
+            }
+          ],
+          "dataDefinition": {
+            "axisColumn": "AXIS",
+            "legendColumn": "LEGEND",
+            "unitColumn": "NAME",
+            "showLegend": true,
+            "yAxes": [
+              {
+                "name": "万人",
+                "unit": "万人",
+                "showAxisLine": true
+              }
+            ],
+            "xAxes": [
+              {
+                "show": true,
+                "interval": 0
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": true,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1408,
+      "topPx": 256,
+      "widthPx": 480,
+      "heightPx": 252,
+      "zIndex": 13,
+      "panelId": 110044282,
+      "id": 110044282
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "table-1-2-fujian",
+          "queryId": 110044283,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "year": "时间",
+              "outpatient": "门诊"
+            },
+            {
+              "year": "2024年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2023年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2022年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2021年",
+              "outpatient": "123456人次"
+            }
+          ],
+          "dataDefinition": {}
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": true,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1408,
+      "topPx": 512,
+      "widthPx": 480,
+      "heightPx": 536,
+      "zIndex": 13,
+      "panelId": 110044283,
+      "id": 110044283
+    },
+    {
+      "widthPx": 216,
+      "heightPx": 32,
+      "leftPx": 1160,
+      "topPx": 912,
+      "zIndex": 103,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "classtype",
+          "isSender": true,
+          "sendToPanelIds": [
+            110044263
+          ]
+        },
+        "chart": {
+          "componentName": "tab-group-12",
+          "selectedTabIndex": 2,
+          "queryUrl": "",
+          "queryId": null,
+          "hidden": false,
+          "queryInterval": 6e+23,
+          "defaultData": [
+            {
+              "text": "昨日",
+              "value": 1
+            },
+            {
+              "text": "按月",
+              "value": 2
+            },
+            {
+              "text": "按年",
+              "value": 3
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044285,
+      "id": 110044285
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "table-1-3-fujian",
+          "queryId11": 110044286,
+          "queryId": 110044283,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "year": "时间",
+              "outpatient": "门诊"
+            },
+            {
+              "year": "2024年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2023年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2022年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2021年",
+              "outpatient": "123456人次"
+            }
+          ],
+          "dataDefinition": {}
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1400,
+      "topPx": 512,
+      "widthPx": 496,
+      "heightPx": 504,
+      "zIndex": 13,
+      "panelId": 110044286,
+      "id": 110044286
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "table-3-2-fujian",
+          "queryId": null,
+          "queryInterval": 3600000,
+          "pageSize": 15,
+          "backgroundOpacity": 0.1,
+          "showPagination": false,
+          "xhWidth": 110,
+          "columnWidths": {
+            "year": "340px",
+            "outpatient": "200px"
+          },
+          "defaultData": [
+            {
+              "year": "医疗机构名称",
+              "outpatient": "床位数(张)"
+            },
+            {
+              "year": "福建医科大学附属协和医院",
+              "outpatient": "3579",
+              "url": ""
+            },
+            {
+              "year": "福州大学附属省立医院",
+              "outpatient": "3421",
+              "url": ""
+            },
+            {
+              "year": "福建医科大学附属第一医院",
+              "outpatient": "3393",
+              "url": ""
+            },
+            {
+              "year": "福建医科大学附属第二医院",
+              "outpatient": "2195",
+              "url": ""
+            },
+            {
+              "year": "福建省肿瘤医院",
+              "outpatient": "1651",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属人民医院",
+              "outpatient": "1248",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属第二人民医院",
+              "outpatient": "1003",
+              "url": ""
+            },
+            {
+              "year": "福建省妇幼保健院",
+              "outpatient": "1000",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属康复医院",
+              "outpatient": "660",
+              "url": ""
+            },
+            {
+              "year": "福建省儿童医院",
+              "outpatient": "542",
+              "url": ""
+            },
+            {
+              "year": "福建省老年医院",
+              "outpatient": "500",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属第三人民医院",
+              "outpatient": "488",
+              "url": ""
+            },
+            {
+              "year": "福建省级机关医院",
+              "outpatient": "293",
+              "url": ""
+            },
+            {
+              "year": "福建医科大学附属口腔医院",
+              "outpatient": "21",
+              "url": ""
+            }
+          ],
+          "dataDefinition": {
+            "axisColumn": "AXIS",
+            "legendColumn": "LEGEND",
+            "showLegend": true,
+            "yAxes": [
+              {
+                "name": "万人",
+                "unit": "万人",
+                "showAxisLine": true
+              }
+            ],
+            "xAxes": [
+              {
+                "show": true,
+                "interval": 0
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 736,
+      "topPx": 224,
+      "widthPx": 656,
+      "heightPx": 792,
+      "zIndex": 13,
+      "panelId": 110044287,
+      "id": 110044287
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "echarts-bar-line-v-23-3-fujian",
+          "queryId11": 110044289,
+          "queryId": 110044282,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "AXIS": "2014",
+              "VALUE": "2.00",
+              "VALUE1": "6",
+              "VALUE2": "20",
+              "LEGEND": "集中"
+            },
+            {
+              "AXIS": "2015",
+              "VALUE": "4.25",
+              "VALUE1": "8.17",
+              "VALUE2": 8,
+              "LEGEND": "私营"
+            },
+            {
+              "AXIS": "2016",
+              "VALUE": "4.25",
+              "VALUE1": "2.00",
+              "VALUE2": 4,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2017",
+              "VALUE": "6.00",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2018",
+              "VALUE": "9.25",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2019",
+              "VALUE": "5.00",
+              "VALUE1": "3.00",
+              "VALUE2": 9,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2020",
+              "VALUE": "9.00",
+              "VALUE1": "3.00",
+              "VALUE2": 8,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2021",
+              "VALUE": "1.00",
+              "VALUE1": "2.00",
+              "VALUE2": 6,
+              "LEGEND": ""
+            }
+          ],
+          "dataDefinition": {
+            "axisColumn": "AXIS",
+            "legendColumn": "LEGEND",
+            "unitColumn": "NAME",
+            "showLegend": true,
+            "yAxes": [
+              {
+                "name": "万人",
+                "unit": "万人",
+                "showAxisLine": true
+              }
+            ],
+            "xAxes": [
+              {
+                "show": true,
+                "interval": 0
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1408,
+      "topPx": 256,
+      "widthPx": 488,
+      "heightPx": 248,
+      "zIndex": 13,
+      "panelId": 110044289,
+      "id": 110044289
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "table-1-fujian",
+          "queryId11": 110044290,
+          "queryId": 110044283,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "year": "时间",
+              "outpatient": "门诊"
+            },
+            {
+              "year": "2024年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2023年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2022年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2021年",
+              "outpatient": "123456人次"
+            }
+          ],
+          "dataDefinition": {}
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1400,
+      "topPx": 512,
+      "widthPx": 496,
+      "heightPx": 504,
+      "zIndex": 13,
+      "panelId": 110044290,
+      "id": 110044290
+    },
+    {
+      "widthPx": 1192,
+      "heightPx": 904,
+      "leftPx": 712,
+      "topPx": 160,
+      "zIndex": 1,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "table-35",
+          "queryUrl": "",
+          "queryId": 110044292,
+          "queryInterval": 60000,
+          "defaultData": [
+            {
+              "name": "设备A"
+            },
+            {
+              "name": "设备B"
+            },
+            {
+              "name": "设备C",
+              "value": 789,
+              "status": "正常"
+            },
+            {
+              "name": "设备D",
+              "value": 321,
+              "status": "正常"
+            },
+            {
+              "name": "设备E",
+              "value": 654,
+              "status": "异常"
+            },
+            {
+              "name": "设备F",
+              "value": 987,
+              "status": "正常"
+            },
+            {
+              "name": "设备G",
+              "value": 159,
+              "status": "正常"
+            },
+            {
+              "name": "设备H",
+              "value": 753,
+              "status": "异常"
+            },
+            {
+              "name": "设备I",
+              "value": 852,
+              "status": "正常"
+            },
+            {
+              "name": "设备J",
+              "value": 963,
+              "status": "正常"
+            },
+            {
+              "name": "设备K",
+              "value": 357,
+              "status": "异常"
+            },
+            {
+              "name": "设备L",
+              "value": 258,
+              "status": "正常"
+            },
+            {
+              "name": "设备M",
+              "value": 147,
+              "status": "正常"
+            },
+            {
+              "name": "设备N",
+              "value": 369,
+              "status": "异常"
+            },
+            {
+              "name": "设备O",
+              "value": 951,
+              "status": "正常"
+            }
+          ],
+          "dataDefinition": {
+            "tableCount": 3,
+            "rowCount": 11,
+            "maxPageButtons": 10,
+            "columns": [
+              {
+                "field": "_rank",
+                "width": 70,
+                "name": "序号",
+                "isSerial": true
+              },
+              {
+                "field": "name",
+                "width": 300,
+                "name": "四级手术名称",
+                "isSerial": false,
+                "showTooltip": true
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044292,
+      "id": 110044292
+    },
+    {
+      "widthPx": 344,
+      "heightPx": 764,
+      "leftPx": 352,
+      "topPx": 204,
+      "zIndex": 101,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "querytime",
+          "isSender": true,
+          "sendToPanelIds": [
+            110044296,
+            110044299,
+            110045179,
+            110044327
+          ]
+        },
+        "chart": {
+          "componentName": "text-list-6-1",
+          "showBar": false,
+          "itemPaddingY": 9.5,
+          "queryUrl": "",
+          "queryId": 110044294,
+          "queryInterval": 0,
+          "dividerLeft": "64%",
+          "dataDefinition": {
+            "nameColumn": "name",
+            "valueColumn": "value",
+            "unitColumn": "unit",
+            "colorColumn": "color",
+            "panelColumn": "panel",
+            "linkColumn": "code"
+          },
+          "defaultData": [
+            {
+              "name": "甲乙类大型医疗设备（全省）",
+              "value": 3500,
+              "unit": "台",
+              "color": "#007bff",
+              "panel": "110044291"
+            },
+            {
+              "name": "100万以上医疗设备（全省）",
+              "value": 890,
+              "unit": "台",
+              "color": "#0AB0DE",
+              "panel": "110044295"
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044294,
+      "id": 110044294
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "map-fujian-2",
+          "queryInterval": 600000,
+          "regionLevelKey": "regionLevel",
+          "queryId": 110044296,
+          "drillDownEnabled": false,
+          "defaultData": [
+            {
+              "REGION_NAME": "省属",
+              "UNIT": "人次",
+              "REGION_CODE": "359900",
+              "VALUE1": "60989",
+              "VALUE2": "75635"
+            },
+            {
+              "REGION_NAME": "南平市",
+              "UNIT": "人次",
+              "REGION_CODE": "350700",
+              "VALUE1": "60989",
+              "VALUE2": "75635"
+            },
+            {
+              "REGION_NAME": "宁德市",
+              "UNIT": "人次",
+              "REGION_CODE": "350900",
+              "VALUE1": "15023",
+              "VALUE2": "76396"
+            },
+            {
+              "REGION_NAME": "福州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350100",
+              "VALUE1": "151",
+              "VALUE2": "39247"
+            },
+            {
+              "REGION_NAME": "平潭综合实验区",
+              "UNIT": "人次",
+              "REGION_CODE": "350128",
+              "VALUE1": "151",
+              "VALUE2": "39247"
+            },
+            {
+              "REGION_NAME": "莆田市",
+              "UNIT": "人次",
+              "REGION_CODE": "350300",
+              "VALUE1": "34459",
+              "VALUE2": "61279"
+            },
+            {
+              "REGION_NAME": "泉州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350500",
+              "VALUE1": "92996",
+              "VALUE2": "76343"
+            },
+            {
+              "REGION_NAME": "厦门市",
+              "UNIT": "人次",
+              "REGION_CODE": "350200",
+              "VALUE1": "59683",
+              "VALUE2": "30008"
+            },
+            {
+              "REGION_NAME": "漳州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350600",
+              "VALUE1": "33118",
+              "VALUE2": "27875"
+            },
+            {
+              "REGION_NAME": "三明市",
+              "UNIT": "人次",
+              "REGION_CODE": "350400",
+              "VALUE1": "34880",
+              "VALUE2": "58984"
+            },
+            {
+              "REGION_NAME": "龙岩市",
+              "UNIT": "人次",
+              "REGION_CODE": "350800",
+              "VALUE1": "64102",
+              "VALUE2": "355"
+            }
+          ],
+          "dataDefinition": {
+            "valueColumn": "VALUE1",
+            "regionNameColumn": "REGION_NAME",
+            "regionCodeColumn": "REGION_CODE",
+            "unitColumn": "UNIT",
+            "highlightColor": "#FFA500",
+            "visualMap": [
+              {
+                "color": "#0731B1",
+                "name": "高",
+                "quantile": [
+                  0.8,
+                  1
+                ]
+              },
+              {
+                "color": "#005AEA",
+                "name": "中",
+                "quantile": [
+                  0.5,
+                  0.8
+                ]
+              },
+              {
+                "color": "#6FA0ED",
+                "name": "低",
+                "quantile": [
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleIcon": "dash",
+        "isSmallTitle": false,
+        "color": "purple",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "moved": false,
+      "static": true,
+      "leftPx": 728,
+      "topPx": 268,
+      "widthPx": 664,
+      "heightPx": 672,
+      "zIndex": 19,
+      "panelId": 110044296,
+      "id": 110044296
+    },
+    {
+      "widthPx": 216,
+      "heightPx": 44,
+      "leftPx": 1160,
+      "topPx": 864,
+      "zIndex": 103,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "classtype",
+          "isSender": true,
+          "sendToPanelIds": [
+            110044294
+          ]
+        },
+        "chart": {
+          "componentName": "tab-group-11",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 6e+23,
+          "defaultData": [
+            {
+              "text": "上年",
+              "value": "3"
+            },
+            {
+              "text": "上月",
+              "value": "2"
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044297,
+      "id": 110044297
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "echarts-bar-line-v-23-3-fujian",
+          "queryId": 110044298,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "AXIS": "2014",
+              "VALUE": "2.00",
+              "LEGEND": "集中"
+            },
+            {
+              "AXIS": "2015",
+              "VALUE": "4.25",
+              "LEGEND": "私营"
+            },
+            {
+              "AXIS": "2016",
+              "VALUE": "4.25",
+              "VALUE1": "2.00",
+              "VALUE2": 4,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2017",
+              "VALUE": "6.00",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2018",
+              "VALUE": "9.25",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2019",
+              "VALUE": "5.00",
+              "VALUE1": "3.00",
+              "VALUE2": 9,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2020",
+              "VALUE": "9.00",
+              "VALUE1": "3.00",
+              "VALUE2": 8,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2021",
+              "VALUE": "1.00",
+              "VALUE1": "2.00",
+              "VALUE2": 6,
+              "LEGEND": ""
+            }
+          ],
+          "dataDefinition": {
+            "axisColumn": "AXIS",
+            "legendColumn": "LEGEND",
+            "showLegend": true,
+            "yAxes": [
+              {
+                "name": "万人",
+                "unit": "万人",
+                "showAxisLine": true
+              }
+            ],
+            "xAxes": [
+              {
+                "show": true,
+                "interval": 0
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1400,
+      "topPx": 228,
+      "widthPx": 488,
+      "heightPx": 276,
+      "zIndex": 13,
+      "panelId": 110044298,
+      "id": 110044298
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "table-1-fujian",
+          "queryId11": 110044299,
+          "queryId": 110044283,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "year": "时间",
+              "outpatient": "门诊"
+            },
+            {
+              "year": "2024年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2023年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2022年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2021年",
+              "outpatient": "123456人次"
+            }
+          ],
+          "dataDefinition": {}
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1400,
+      "topPx": 512,
+      "widthPx": 496,
+      "heightPx": 536,
+      "zIndex": 13,
+      "panelId": 110044299,
+      "id": 110044299
+    },
+    {
+      "widthPx": 344,
+      "heightPx": 832,
+      "leftPx": 336,
+      "topPx": 188,
+      "zIndex": 101,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "text-list-6",
+          "showBar": false,
+          "queryUrl": "",
+          "queryId": 110044300,
+          "queryInterval": 0,
+          "dividerLeft": "63%",
+          "dataDefinition": {
+            "nameColumn": "name",
+            "valueColumn": "value",
+            "unitColumn": "unit",
+            "colorColumn": "color",
+            "panelColumn": "panel"
+          },
+          "defaultData": [
+            {
+              "name": "四级手术项目数（全省）",
+              "value": 3500,
+              "unit": "项",
+              "color": "#007bff",
+              "panel": "110044302,110044303,110044304,110044305,110044306,110044322,110044323,110044324,110044325"
+            },
+            {
+              "name": "全省四级手术清单（全省）",
+              "value": 890,
+              "unit": "项",
+              "color": "#0AB0DE",
+              "panel": "110044301,110044292"
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044300,
+      "id": 110044300
+    },
+    {
+      "widthPx": 1192,
+      "heightPx": 896,
+      "leftPx": 712,
+      "topPx": 168,
+      "zIndex": 0,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "panel-fujian",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044301,
+      "id": 110044301
+    },
+    {
+      "widthPx": 672,
+      "heightPx": 896,
+      "leftPx": 712,
+      "topPx": 168,
+      "zIndex": 1,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "panel-fujian",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044302,
+      "id": 110044302
+    },
+    {
+      "widthPx": 496,
+      "heightPx": 36,
+      "leftPx": 1400,
+      "topPx": 176,
+      "zIndex": 10,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "panel-title-fujian-5",
+          "titleText": "时间分布",
+          "titleText1": "",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044303,
+      "id": 110044303
+    },
+    {
+      "widthPx": 512,
+      "heightPx": 892,
+      "leftPx": 1392,
+      "topPx": 172,
+      "zIndex": 1,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "panel-fujian",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044304,
+      "id": 110044304
+    },
+    {
+      "widthPx": 64,
+      "heightPx": 32,
+      "leftPx": 1816,
+      "topPx": 176,
+      "zIndex": 102,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "tab-group-10",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "defaultData": [
+            {
+              "text": "按年",
+              "tip": null,
+              "value": "1",
+              "showPanelIds": "1,3",
+              "hidePanelIds": "2,4"
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044305,
+      "id": 110044305
+    },
+    {
+      "widthPx": 336,
+      "heightPx": 416,
+      "leftPx": 344,
+      "topPx": 636,
+      "zIndex": 101,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "text-list-6",
+          "showBigNum": false,
+          "dividerLeft": "52%",
+          "queryUrl": "",
+          "queryId": 110044306,
+          "queryInterval": 60000,
+          "dataDefinition": {
+            "nameColumn": "name",
+            "valueColumn": "value",
+            "unitColumn": "unit",
+            "colorColumn": "color",
+            "flagColumn": "flag",
+            "linkColumn": "code"
+          },
+          "defaultData": [
+            {
+              "name": "全部",
+              "value": 3500,
+              "unit": "人次",
+              "color": "#007bff",
+              "flag": 1
+            },
+            {
+              "name": "三级医院",
+              "value": 890,
+              "unit": "人次",
+              "color": "#0AB0DE",
+              "flag": 0
+            },
+            {
+              "name": "二级医院",
+              "value": 1200,
+              "unit": "人次",
+              "color": "#28a745",
+              "flag": 0
+            },
+            {
+              "name": "一级医院",
+              "value": 650,
+              "unit": "人次",
+              "color": "#CEA427",
+              "flag": 0
+            },
+            {
+              "name": "未定级医院",
+              "value": 420,
+              "unit": "人次",
+              "color": "#fd7e14",
+              "flag": 0
+            },
+            {
+              "name": "基层机构",
+              "value": 280,
+              "unit": "人次",
+              "color": "#dc3545",
+              "flag": 0
+            },
+            {
+              "name": "诊所门诊部",
+              "value": 450,
+              "unit": "人次",
+              "color": "#ffc107",
+              "flag": 0
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044306,
+      "id": 110044306
+    },
+    {
+      "widthPx": 216,
+      "heightPx": 44,
+      "leftPx": 1160,
+      "topPx": 860,
+      "zIndex": 103,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "classtype",
+          "isSender": true,
+          "sendToPanelIds": [
+            110044255
+          ]
+        },
+        "chart": {
+          "componentName": "tab-group-11",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 6e+23,
+          "defaultData": [
+            {
+              "text": "上年",
+              "value": 3
+            },
+            {
+              "text": "上月",
+              "value": 2
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044307,
+      "id": 110044307
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "table-1-3-fujian",
+          "queryId": 110044283,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "year": "时间",
+              "outpatient": "门诊"
+            },
+            {
+              "year": "2024年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2023年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2022年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2021年",
+              "outpatient": "123456人次"
+            }
+          ],
+          "dataDefinition": {}
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1400,
+      "topPx": 512,
+      "widthPx": 496,
+      "heightPx": 504,
+      "zIndex": 13,
+      "panelId": 110044308,
+      "id": 110044308
+    },
+    {
+      "widthPx": 360,
+      "heightPx": 500,
+      "leftPx": 328,
+      "topPx": 184,
+      "zIndex": 101,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "bigtype",
+          "isSender": true,
+          "sendToPanelIds": [
+            110044310,
+            110044311,
+            110044313,
+            110044314,
+            110044315
+          ]
+        },
+        "chart": {
+          "componentName": "text-list-6",
+          "showBar": false,
+          "dividerLeft": "52%",
+          "queryUrl": "",
+          "queryId": 110044309,
+          "queryInterval": 6e+21,
+          "dataDefinition": {
+            "nameColumn": "name",
+            "valueColumn": "value",
+            "unitColumn": "unit",
+            "colorColumn": "color",
+            "flagColumn": "flag",
+            "linkColumn": "code",
+            "panelColumn": "panel"
+          },
+          "defaultData": [
+            {
+              "name": "全部",
+              "value": 3500,
+              "unit": "人次",
+              "color": "#007bff",
+              "flag": 1
+            },
+            {
+              "name": "三级医院",
+              "value": 890,
+              "unit": "人次",
+              "color": "#0AB0DE",
+              "flag": 0
+            },
+            {
+              "name": "二级医院",
+              "value": 1200,
+              "unit": "人次",
+              "color": "#28a745",
+              "flag": 0
+            },
+            {
+              "name": "一级医院",
+              "value": 650,
+              "unit": "人次",
+              "color": "#CEA427",
+              "flag": 0
+            },
+            {
+              "name": "未定级医院",
+              "value": 420,
+              "unit": "人次",
+              "color": "#fd7e14",
+              "flag": 0
+            },
+            {
+              "name": "基层机构",
+              "value": 280,
+              "unit": "人次",
+              "color": "#dc3545",
+              "flag": 0
+            },
+            {
+              "name": "诊所门诊部",
+              "value": 450,
+              "unit": "人次",
+              "color": "#ffc107",
+              "flag": 0
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044309,
+      "id": 110044309
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "echarts-pie-6-fujian",
+          "queryInterval": 60000,
+          "queryId": 110044310,
+          "defaultData": [
+            {
+              "VALUE": 172,
+              "NAME": "肾脏",
+              "PCT": 31.1
+            },
+            {
+              "VALUE": 75,
+              "NAME": "血液",
+              "PCT": 13.56
+            },
+            {
+              "VALUE": 61,
+              "NAME": "消化",
+              "PCT": 11.03
+            },
+            {
+              "VALUE": 86,
+              "NAME": "呼吸",
+              "PCT": 15.55
+            },
+            {
+              "VALUE": 35,
+              "NAME": "内分",
+              "PCT": 6.32
+            }
+          ],
+          "dataDefinition": {
+            "valueColumn": "VALUE",
+            "nameColumn": "NAME",
+            "percentColumn": "PCT",
+            "unit": "",
+            "title": ""
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 320,
+      "topPx": 752,
+      "widthPx": 376,
+      "heightPx": 292,
+      "zIndex": 2000,
+      "panelId": 110044310,
+      "id": 110044310
+    },
+    {
+      "widthPx": 216,
+      "heightPx": 44,
+      "leftPx": 1152,
+      "topPx": 976,
+      "zIndex": 103,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype",
+          "isSender": true,
+          "sendToPanelIds": [
+            110044312
+          ]
+        },
+        "chart": {
+          "componentName": "tab-group-11",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 6e+23,
+          "defaultData": [
+            {
+              "text": "上年",
+              "value": 1
+            },
+            {
+              "text": "上月",
+              "value": 2
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044311,
+      "id": 110044311
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "querytime"
+        },
+        "chart": {
+          "componentName": "echarts-drill-down-map-19",
+          "queryInterval": 600000,
+          "regionLevelKey": "regionLevel",
+          "queryId": 110044312,
+          "drillDownEnabled": true,
+          "defaultData": [
+            {
+              "REGION_NAME": "省属",
+              "UNIT": "人次",
+              "REGION_CODE": "359900",
+              "VALUE1": "60989",
+              "VALUE2": "75635"
+            },
+            {
+              "REGION_NAME": "南平市",
+              "UNIT": "人次",
+              "REGION_CODE": "350700",
+              "VALUE1": "60989",
+              "VALUE2": "75635"
+            },
+            {
+              "REGION_NAME": "宁德市",
+              "UNIT": "人次",
+              "REGION_CODE": "350900",
+              "VALUE1": "15023",
+              "VALUE2": "76396"
+            },
+            {
+              "REGION_NAME": "福州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350100",
+              "VALUE1": "151",
+              "VALUE2": "39247"
+            },
+            {
+              "REGION_NAME": "平潭综合实验区",
+              "UNIT": "人次",
+              "REGION_CODE": "350128",
+              "VALUE1": "151",
+              "VALUE2": "39247"
+            },
+            {
+              "REGION_NAME": "莆田市",
+              "UNIT": "人次",
+              "REGION_CODE": "350300",
+              "VALUE1": "34459",
+              "VALUE2": "61279"
+            },
+            {
+              "REGION_NAME": "泉州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350500",
+              "VALUE1": "92996",
+              "VALUE2": "76343"
+            },
+            {
+              "REGION_NAME": "厦门市",
+              "UNIT": "人次",
+              "REGION_CODE": "350200",
+              "VALUE1": "59683",
+              "VALUE2": "30008"
+            },
+            {
+              "REGION_NAME": "漳州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350600",
+              "VALUE1": "33118",
+              "VALUE2": "27875"
+            },
+            {
+              "REGION_NAME": "三明市",
+              "UNIT": "人次",
+              "REGION_CODE": "350400",
+              "VALUE1": "34880",
+              "VALUE2": "58984"
+            },
+            {
+              "REGION_NAME": "龙岩市",
+              "UNIT": "人次",
+              "REGION_CODE": "350800",
+              "VALUE1": "64102",
+              "VALUE2": "355"
+            }
+          ],
+          "dataDefinition": {
+            "valueColumn": "VALUE1",
+            "regionNameColumn": "REGION_NAME",
+            "regionCodeColumn": "REGION_CODE",
+            "unitColumn": "UNIT",
+            "highlightColor": "#FFA500",
+            "visualMap": [
+              {
+                "color": "#005DF3",
+                "name": "高",
+                "quantile": [
+                  0.8,
+                  1
+                ]
+              },
+              {
+                "color": "#5595F5",
+                "name": "中",
+                "quantile": [
+                  0.5,
+                  0.8
+                ]
+              },
+              {
+                "color": "#BAD8F7",
+                "name": "低",
+                "quantile": [
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleIcon": "dash",
+        "isSmallTitle": false,
+        "color": "purple",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "moved": false,
+      "static": true,
+      "leftPx": 728,
+      "topPx": 224,
+      "widthPx": 664,
+      "heightPx": 824,
+      "zIndex": 19,
+      "panelId": 110044312,
+      "id": 110044312
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "echarts-bar-line-v-23-3-fujian",
+          "queryId": 110044313,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "AXIS": "2014",
+              "VALUE": "2.00",
+              "VALUE1": "6",
+              "VALUE2": "20",
+              "LEGEND": "集中"
+            },
+            {
+              "AXIS": "2015",
+              "VALUE": "4.25",
+              "VALUE1": "8.17",
+              "VALUE2": 8,
+              "LEGEND": "私营"
+            },
+            {
+              "AXIS": "2016",
+              "VALUE": "4.25",
+              "VALUE1": "2.00",
+              "VALUE2": 4,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2017",
+              "VALUE": "6.00",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2018",
+              "VALUE": "9.25",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2019",
+              "VALUE": "5.00",
+              "VALUE1": "3.00",
+              "VALUE2": 9,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2020",
+              "VALUE": "9.00",
+              "VALUE1": "3.00",
+              "VALUE2": 8,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2021",
+              "VALUE": "1.00",
+              "VALUE1": "2.00",
+              "VALUE2": 6,
+              "LEGEND": ""
+            }
+          ],
+          "dataDefinition": {
+            "axisColumn": "AXIS",
+            "legendColumn": "LEGEND",
+            "unitColumn": "NAME",
+            "showLegend": true,
+            "yAxes": [
+              {
+                "name": "万人",
+                "unit": "万人",
+                "showAxisLine": true
+              }
+            ],
+            "xAxes": [
+              {
+                "show": true,
+                "interval": 0
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1408,
+      "topPx": 228,
+      "widthPx": 488,
+      "heightPx": 276,
+      "zIndex": 13,
+      "panelId": 110044313,
+      "id": 110044313
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "table-1-fujian",
+          "queryId": 110044314,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "year": "时间",
+              "outpatient": "门诊"
+            },
+            {
+              "year": "2024年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2023年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2022年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2021年",
+              "outpatient": "123456人次"
+            }
+          ],
+          "dataDefinition": {}
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1400,
+      "topPx": 512,
+      "widthPx": 496,
+      "heightPx": 504,
+      "zIndex": 13,
+      "panelId": 110044314,
+      "id": 110044314
+    },
+    {
+      "widthPx": 656,
+      "heightPx": 36,
+      "leftPx": 728,
+      "topPx": 176,
+      "zIndex": 10,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "panel-title-fujian-5-2",
+          "dataDefinition": {
+            "valueColumn": "value1",
+            "value1Column": "value2"
+          },
+          "titleText": "门急诊人次",
+          "queryUrl": "",
+          "queryId": 110044315,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044315,
+      "id": 110044315
+    },
+    {
+      "widthPx": 344,
+      "heightPx": 832,
+      "leftPx": 336,
+      "topPx": 188,
+      "zIndex": 101,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isSender": true,
+          "sendToPanelIds": [
+            110044317,
+            110044319,
+            110044320,
+            110044321
+          ]
+        },
+        "chart": {
+          "componentName": "text-list-6",
+          "showBar": false,
+          "queryUrl": "",
+          "queryId": 110044316,
+          "queryInterval": 0,
+          "dividerLeft": "63%",
+          "dataDefinition": {
+            "nameColumn": "name",
+            "valueColumn": "value",
+            "unitColumn": "unit",
+            "colorColumn": "color",
+            "panelColumn": "panel",
+            "linkColumn": "link"
+          },
+          "defaultData": [
+            {
+              "name": "甲乙类大型医疗设备（全省）",
+              "value": 3500,
+              "unit": "台",
+              "color": "#007bff"
+            },
+            {
+              "name": "100万以上医疗设备（全省）",
+              "value": 890,
+              "unit": "台",
+              "color": "#0AB0DE"
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044316,
+      "id": 110044316
+    },
+    {
+      "widthPx": 336,
+      "heightPx": 468,
+      "leftPx": 344,
+      "topPx": 588,
+      "zIndex": 101,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "category"
+        },
+        "chart": {
+          "componentName": "text-list-6",
+          "showBigNum": false,
+          "dividerLeft": "52%",
+          "queryUrl": "",
+          "queryId": 110044317,
+          "queryInterval": 60000,
+          "dataDefinition": {
+            "nameColumn": "name",
+            "valueColumn": "value",
+            "unitColumn": "unit",
+            "colorColumn": "color",
+            "flagColumn": "flag",
+            "linkColumn": "code"
+          },
+          "defaultData": [
+            {
+              "name": "全部",
+              "value": 3500,
+              "unit": "人次",
+              "color": "#007bff",
+              "flag": 1
+            },
+            {
+              "name": "三级医院",
+              "value": 890,
+              "unit": "人次",
+              "color": "#0AB0DE",
+              "flag": 0
+            },
+            {
+              "name": "二级医院",
+              "value": 1200,
+              "unit": "人次",
+              "color": "#28a745",
+              "flag": 0
+            },
+            {
+              "name": "一级医院",
+              "value": 650,
+              "unit": "人次",
+              "color": "#CEA427",
+              "flag": 0
+            },
+            {
+              "name": "未定级医院",
+              "value": 420,
+              "unit": "人次",
+              "color": "#fd7e14",
+              "flag": 0
+            },
+            {
+              "name": "基层机构",
+              "value": 280,
+              "unit": "人次",
+              "color": "#dc3545",
+              "flag": 0
+            },
+            {
+              "name": "诊所门诊部",
+              "value": 450,
+              "unit": "人次",
+              "color": "#ffc107",
+              "flag": 0
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044317,
+      "id": 110044317
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "timeType"
+        },
+        "chart": {
+          "componentName": "echarts-drill-down-map-19",
+          "queryInterval": 600000,
+          "regionLevelKey": "regionLevel",
+          "queryId": 110044318,
+          "drillDownEnabled": true,
+          "defaultData": [
+            {
+              "REGION_NAME": "省属",
+              "UNIT": "人次",
+              "REGION_CODE": "359900",
+              "VALUE1": "60989",
+              "VALUE2": "75635"
+            },
+            {
+              "REGION_NAME": "南平市",
+              "UNIT": "人次",
+              "REGION_CODE": "350700",
+              "VALUE1": "60989",
+              "VALUE2": "75635"
+            },
+            {
+              "REGION_NAME": "宁德市",
+              "UNIT": "人次",
+              "REGION_CODE": "350900",
+              "VALUE1": "15023",
+              "VALUE2": "76396"
+            },
+            {
+              "REGION_NAME": "福州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350100",
+              "VALUE1": "151",
+              "VALUE2": "39247"
+            },
+            {
+              "REGION_NAME": "平潭综合实验区",
+              "UNIT": "人次",
+              "REGION_CODE": "350128",
+              "VALUE1": "151",
+              "VALUE2": "39247"
+            },
+            {
+              "REGION_NAME": "莆田市",
+              "UNIT": "人次",
+              "REGION_CODE": "350300",
+              "VALUE1": "34459",
+              "VALUE2": "61279"
+            },
+            {
+              "REGION_NAME": "泉州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350500",
+              "VALUE1": "92996",
+              "VALUE2": "76343"
+            },
+            {
+              "REGION_NAME": "厦门市",
+              "UNIT": "人次",
+              "REGION_CODE": "350200",
+              "VALUE1": "59683",
+              "VALUE2": "30008"
+            },
+            {
+              "REGION_NAME": "漳州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350600",
+              "VALUE1": "33118",
+              "VALUE2": "27875"
+            },
+            {
+              "REGION_NAME": "三明市",
+              "UNIT": "人次",
+              "REGION_CODE": "350400",
+              "VALUE1": "34880",
+              "VALUE2": "58984"
+            },
+            {
+              "REGION_NAME": "龙岩市",
+              "UNIT": "人次",
+              "REGION_CODE": "350800",
+              "VALUE1": "64102",
+              "VALUE2": "355"
+            }
+          ],
+          "dataDefinition": {
+            "valueColumn": "VALUE1",
+            "regionNameColumn": "REGION_NAME",
+            "regionCodeColumn": "REGION_CODE",
+            "unitColumn": "UNIT",
+            "highlightColor": "#FFA500",
+            "visualMap": [
+              {
+                "color": "#005DF3",
+                "name": "高",
+                "quantile": [
+                  0.8,
+                  1
+                ]
+              },
+              {
+                "color": "#5595F5",
+                "name": "中",
+                "quantile": [
+                  0.5,
+                  0.8
+                ]
+              },
+              {
+                "color": "#BAD8F7",
+                "name": "低",
+                "quantile": [
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleIcon": "dash",
+        "isSmallTitle": false,
+        "color": "purple",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "moved": false,
+      "static": true,
+      "leftPx": 720,
+      "topPx": 224,
+      "widthPx": 664,
+      "heightPx": 824,
+      "zIndex": 19,
+      "panelId": 110044318,
+      "id": 110044318
+    },
+    {
+      "widthPx": 216,
+      "heightPx": 44,
+      "leftPx": 1152,
+      "topPx": 976,
+      "zIndex": 103,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "category",
+          "isSender": true,
+          "sendToPanelIds": [
+            110044318
+          ]
+        },
+        "chart": {
+          "componentName": "tab-group-11",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 6e+23,
+          "defaultData": [
+            {
+              "text": "上年",
+              "value": 1
+            },
+            {
+              "text": "上月",
+              "value": 2
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044319,
+      "id": 110044319
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "category"
+        },
+        "chart": {
+          "componentName": "echarts-bar-line-v-23-3-fujian",
+          "queryId": 110044320,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "AXIS": "2014",
+              "VALUE": "2.00",
+              "VALUE1": "6",
+              "VALUE2": "20",
+              "LEGEND": "集中"
+            },
+            {
+              "AXIS": "2015",
+              "VALUE": "4.25",
+              "VALUE1": "8.17",
+              "VALUE2": 8,
+              "LEGEND": "私营"
+            },
+            {
+              "AXIS": "2016",
+              "VALUE": "4.25",
+              "VALUE1": "2.00",
+              "VALUE2": 4,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2017",
+              "VALUE": "6.00",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2018",
+              "VALUE": "9.25",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2019",
+              "VALUE": "5.00",
+              "VALUE1": "3.00",
+              "VALUE2": 9,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2020",
+              "VALUE": "9.00",
+              "VALUE1": "3.00",
+              "VALUE2": 8,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2021",
+              "VALUE": "1.00",
+              "VALUE1": "2.00",
+              "VALUE2": 6,
+              "LEGEND": ""
+            }
+          ],
+          "dataDefinition": {
+            "axisColumn": "AXIS",
+            "legendColumn": "LEGEND",
+            "showLegend": true,
+            "yAxes": [
+              {
+                "name": "万人",
+                "unit": "万人",
+                "showAxisLine": true
+              }
+            ],
+            "xAxes": [
+              {
+                "show": true,
+                "interval": 0
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1400,
+      "topPx": 228,
+      "widthPx": 488,
+      "heightPx": 276,
+      "zIndex": 13,
+      "panelId": 110044320,
+      "id": 110044320
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "category"
+        },
+        "chart": {
+          "componentName": "table-1-fujian",
+          "queryId": 110044321,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "year": "时间",
+              "outpatient": "门诊"
+            },
+            {
+              "year": "2024年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2023年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2022年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2021年",
+              "outpatient": "123456人次"
+            }
+          ],
+          "dataDefinition": {}
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1400,
+      "topPx": 512,
+      "widthPx": 496,
+      "heightPx": 532,
+      "zIndex": 13,
+      "panelId": 110044321,
+      "id": 110044321
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "timeType"
+        },
+        "chart": {
+          "componentName": "echarts-drill-down-map-19",
+          "queryInterval": 600000,
+          "regionLevelKey": "regionLevel",
+          "queryId": 110044322,
+          "drillDownEnabled": true,
+          "defaultData": [
+            {
+              "REGION_NAME": "省属",
+              "UNIT": "人次",
+              "REGION_CODE": "359900",
+              "VALUE1": "60989",
+              "VALUE2": "75635"
+            },
+            {
+              "REGION_NAME": "南平市",
+              "UNIT": "人次",
+              "REGION_CODE": "350700",
+              "VALUE1": "60989",
+              "VALUE2": "75635"
+            },
+            {
+              "REGION_NAME": "宁德市",
+              "UNIT": "人次",
+              "REGION_CODE": "350900",
+              "VALUE1": "15023",
+              "VALUE2": "76396"
+            },
+            {
+              "REGION_NAME": "福州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350100",
+              "VALUE1": "151",
+              "VALUE2": "39247"
+            },
+            {
+              "REGION_NAME": "平潭综合实验区",
+              "UNIT": "人次",
+              "REGION_CODE": "350128",
+              "VALUE1": "151",
+              "VALUE2": "39247"
+            },
+            {
+              "REGION_NAME": "莆田市",
+              "UNIT": "人次",
+              "REGION_CODE": "350300",
+              "VALUE1": "34459",
+              "VALUE2": "61279"
+            },
+            {
+              "REGION_NAME": "泉州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350500",
+              "VALUE1": "92996",
+              "VALUE2": "76343"
+            },
+            {
+              "REGION_NAME": "厦门市",
+              "UNIT": "人次",
+              "REGION_CODE": "350200",
+              "VALUE1": "59683",
+              "VALUE2": "30008"
+            },
+            {
+              "REGION_NAME": "漳州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350600",
+              "VALUE1": "33118",
+              "VALUE2": "27875"
+            },
+            {
+              "REGION_NAME": "三明市",
+              "UNIT": "人次",
+              "REGION_CODE": "350400",
+              "VALUE1": "34880",
+              "VALUE2": "58984"
+            },
+            {
+              "REGION_NAME": "龙岩市",
+              "UNIT": "人次",
+              "REGION_CODE": "350800",
+              "VALUE1": "64102",
+              "VALUE2": "355"
+            }
+          ],
+          "dataDefinition": {
+            "valueColumn": "VALUE1",
+            "regionNameColumn": "REGION_NAME",
+            "regionCodeColumn": "REGION_CODE",
+            "unitColumn": "UNIT",
+            "highlightColor": "#FFA500",
+            "visualMap": [
+              {
+                "color": "#005DF3",
+                "name": "高",
+                "quantile": [
+                  0.8,
+                  1
+                ]
+              },
+              {
+                "color": "#5595F5",
+                "name": "中",
+                "quantile": [
+                  0.5,
+                  0.8
+                ]
+              },
+              {
+                "color": "#BAD8F7",
+                "name": "低",
+                "quantile": [
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleIcon": "dash",
+        "isSmallTitle": false,
+        "color": "purple",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "moved": false,
+      "static": true,
+      "leftPx": 720,
+      "topPx": 224,
+      "widthPx": 664,
+      "heightPx": 824,
+      "zIndex": 19,
+      "panelId": 110044322,
+      "id": 110044322
+    },
+    {
+      "widthPx": 216,
+      "heightPx": 44,
+      "leftPx": 1152,
+      "topPx": 976,
+      "zIndex": 103,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isSender": true,
+          "sendToPanelIds": [
+            110044322
+          ]
+        },
+        "chart": {
+          "componentName": "tab-group-11",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 6e+23,
+          "defaultData": [
+            {
+              "text": "上年",
+              "value": 1
+            },
+            {
+              "text": "上月",
+              "value": 2
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044323,
+      "id": 110044323
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": false,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "echarts-bar-line-v-23-3-fujian",
+          "queryId": 110044324,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "AXIS": "2014",
+              "VALUE": "2.00",
+              "VALUE1": "6",
+              "VALUE2": "20",
+              "LEGEND": "集中"
+            },
+            {
+              "AXIS": "2015",
+              "VALUE": "4.25",
+              "VALUE1": "8.17",
+              "VALUE2": 8,
+              "LEGEND": "私营"
+            },
+            {
+              "AXIS": "2016",
+              "VALUE": "4.25",
+              "VALUE1": "2.00",
+              "VALUE2": 4,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2017",
+              "VALUE": "6.00",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2018",
+              "VALUE": "9.25",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2019",
+              "VALUE": "5.00",
+              "VALUE1": "3.00",
+              "VALUE2": 9,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2020",
+              "VALUE": "9.00",
+              "VALUE1": "3.00",
+              "VALUE2": 8,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2021",
+              "VALUE": "1.00",
+              "VALUE1": "2.00",
+              "VALUE2": 6,
+              "LEGEND": ""
+            }
+          ],
+          "dataDefinition": {
+            "axisColumn": "AXIS",
+            "legendColumn": "LEGEND",
+            "showLegend": true,
+            "yAxes": [
+              {
+                "name": "万人",
+                "unit": "万人",
+                "showAxisLine": true
+              }
+            ],
+            "xAxes": [
+              {
+                "show": true,
+                "interval": 0
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1400,
+      "topPx": 228,
+      "widthPx": 488,
+      "heightPx": 276,
+      "zIndex": 13,
+      "panelId": 110044324,
+      "id": 110044324
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": false,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "table-1-fujian",
+          "queryId": 110044325,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "year": "时间",
+              "outpatient": "门诊"
+            },
+            {
+              "year": "2024年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2023年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2022年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2021年",
+              "outpatient": "123456人次"
+            }
+          ],
+          "dataDefinition": {}
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1400,
+      "topPx": 512,
+      "widthPx": 496,
+      "heightPx": 532,
+      "zIndex": 13,
+      "panelId": 110044325,
+      "id": 110044325
+    },
+    {
+      "widthPx": 656,
+      "heightPx": 36,
+      "leftPx": 728,
+      "topPx": 176,
+      "zIndex": 10,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "panel-title-fujian-5-2",
+          "dataDefinition": {
+            "valueColumn": "value1",
+            "value1Column": "value2"
+          },
+          "titleText": "门急诊人次",
+          "queryUrl": "",
+          "queryId": 110044256,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044326,
+      "id": 110044326
+    },
+    {
+      "widthPx": 656,
+      "heightPx": 36,
+      "leftPx": 776,
+      "topPx": 166,
+      "zIndex": 10,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "panel-title-fujian-5-2",
+          "dataDefinition": {
+            "valueColumn": "value1",
+            "value1Column": "value2"
+          },
+          "titleText": "门急诊人次",
+          "queryUrl": "",
+          "queryId": 110044327,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044327,
+      "id": 110044327
+    },
+    {
+      "widthPx": 616,
+      "heightPx": 40,
+      "leftPx": 728,
+      "topPx": 172,
+      "zIndex": 104,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "panel-title-fujian-5-3",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "titleText": "限制性技术",
+          "titleText1": "（限制性医疗技术-全省）",
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044331,
+      "id": 110044331
+    },
+    {
+      "widthPx": 616,
+      "heightPx": 40,
+      "leftPx": 728,
+      "topPx": 172,
+      "zIndex": 104,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "panel-title-fujian-5-3",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "titleText": "限制性技术",
+          "titleText1": "（同种异体器官移植术-全省）",
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044332,
+      "id": 110044332
+    },
+    {
+      "widthPx": 616,
+      "heightPx": 40,
+      "leftPx": 728,
+      "topPx": 172,
+      "zIndex": 104,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "panel-title-fujian-5-3",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "titleText": "四级手术",
+          "titleText1": "（四级手术项目数-全省 ）",
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110044333,
+      "id": 110044333
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "bigtype"
+        },
+        "chart": {
+          "componentName": "echarts-pie-6-fujian",
+          "queryInterval": 60000,
+          "queryId": 110045165,
+          "defaultData": [
+            {
+              "VALUE": 172,
+              "NAME": "肾脏内科",
+              "PCT": 31.1
+            },
+            {
+              "VALUE": 75,
+              "NAME": "血液内科",
+              "PCT": 13.56
+            },
+            {
+              "VALUE": 61,
+              "NAME": "消化内科",
+              "PCT": 11.03
+            },
+            {
+              "VALUE": 86,
+              "NAME": "呼吸内科",
+              "PCT": 15.55
+            },
+            {
+              "VALUE": 35,
+              "NAME": "内分泌科",
+              "PCT": 6.32
+            },
+            {
+              "VALUE": 124,
+              "NAME": "传染病学",
+              "PCT": 22.42
+            }
+          ],
+          "dataDefinition": {
+            "valueColumn": "value",
+            "nameColumn": "name",
+            "percentColumn": "PCT",
+            "unit": "张",
+            "title": ""
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 320,
+      "topPx": 680,
+      "widthPx": 376,
+      "heightPx": 344,
+      "zIndex": 200,
+      "panelId": 110045165,
+      "id": 110045165
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "bigtype"
+        },
+        "chart": {
+          "componentName": "echarts-pie-6-fujian",
+          "queryInterval": 60000,
+          "queryId": 110045166,
+          "defaultData": [
+            {
+              "VALUE": 172,
+              "NAME": "肾脏内科",
+              "PCT": 31.1
+            },
+            {
+              "VALUE": 75,
+              "NAME": "血液内科",
+              "PCT": 13.56
+            },
+            {
+              "VALUE": 61,
+              "NAME": "消化内科",
+              "PCT": 11.03
+            },
+            {
+              "VALUE": 86,
+              "NAME": "呼吸内科",
+              "PCT": 15.55
+            },
+            {
+              "VALUE": 35,
+              "NAME": "内分泌科",
+              "PCT": 6.32
+            },
+            {
+              "VALUE": 124,
+              "NAME": "传染病学",
+              "PCT": 22.42
+            }
+          ],
+          "dataDefinition": {
+            "valueColumn": "value",
+            "nameColumn": "name",
+            "percentColumn": "PCT",
+            "unit": "人",
+            "title": ""
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 320,
+      "topPx": 680,
+      "widthPx": 368,
+      "heightPx": 320,
+      "zIndex": 200,
+      "panelId": 110045166,
+      "id": 110045166
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "table-3-2-fujian",
+          "queryId": null,
+          "queryInterval": 3600000,
+          "pageSize": 15,
+          "backgroundOpacity": 0.1,
+          "showPagination": false,
+          "xhWidth": 110,
+          "columnWidths": {
+            "year": "340px",
+            "outpatient": "200px"
+          },
+          "defaultData": [
+            {
+              "year": "医院名称",
+              "outpatient": "卫技人员数(人)"
+            },
+            {
+              "year": "福建医科大学附属第一医院",
+              "outpatient": "4821",
+              "url": ""
+            },
+            {
+              "year": "福建医科大学附属协和医院",
+              "outpatient": "4589",
+              "url": ""
+            },
+            {
+              "year": "福州大学附属省立医院",
+              "outpatient": "4213",
+              "url": ""
+            },
+            {
+              "year": "福建医科大学附属第二医院",
+              "outpatient": "2988",
+              "url": ""
+            },
+            {
+              "year": "福建省肿瘤医院",
+              "outpatient": "2081",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属人民医院",
+              "outpatient": "1782",
+              "url": ""
+            },
+            {
+              "year": "福建省妇幼保健院",
+              "outpatient": "1781",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属第二人民医院",
+              "outpatient": "1715",
+              "url": ""
+            },
+            {
+              "year": "福建省儿童医院",
+              "outpatient": "835",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属康复医院",
+              "outpatient": "694",
+              "url": ""
+            },
+            {
+              "year": "福建省老年医院",
+              "outpatient": "588",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属第三人民医院",
+              "outpatient": "567",
+              "url": ""
+            },
+            {
+              "year": "福建省级机关医院",
+              "outpatient": "475",
+              "url": ""
+            },
+            {
+              "year": "福建医科大学附属口腔医院",
+              "outpatient": "461",
+              "url": ""
+            }
+          ],
+          "dataDefinition": {
+            "axisColumn": "AXIS",
+            "legendColumn": "LEGEND",
+            "showLegend": true,
+            "yAxes": [
+              {
+                "name": "万人",
+                "unit": "万人",
+                "showAxisLine": true
+              }
+            ],
+            "xAxes": [
+              {
+                "show": true,
+                "interval": 0
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 736,
+      "topPx": 224,
+      "widthPx": 656,
+      "heightPx": 792,
+      "zIndex": 13,
+      "panelId": 110045168,
+      "id": 110045168
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "table-3-4-fujian",
+          "queryId": null,
+          "queryInterval": 3600000,
+          "pageSize": 15,
+          "xhWidth": 110,
+          "backgroundOpacity": 0.1,
+          "showPagination": false,
+          "columnWidths": {
+            "year": "420px",
+            "outpatient": "50px"
+          },
+          "defaultData": [
+            {
+              "year": "医疗机构名称"
+            },
+            {
+              "year": "福州大学附属省立医院",
+              "outpatient": "3421床",
+              "url": ""
+            },
+            {
+              "year": "福建医科大学附属协和医院",
+              "outpatient": "3579床",
+              "url": "http://10.120.100.9:26873/webroot/decision/view/form?viewlet=fjxh%252Ffrm%252FJSC%252FJSC_V2.frm"
+            },
+            {
+              "year": "福建医科大学附属第一医院",
+              "outpatient": "3393床",
+              "url": "http://10.120.104.34:9095/opr-all-in-one/outpatientFlowMonitor"
+            },
+            {
+              "year": "福建医科大学附属第二医院",
+              "outpatient": "1003床",
+              "url": ""
+            },
+            {
+              "year": "福建医科大学附属口腔医院",
+              "outpatient": "21床",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属人民医院",
+              "outpatient": "1248床",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属第二人民医院",
+              "outpatient": "2195床",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属第三人民医院",
+              "outpatient": "488床",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属康复医院",
+              "outpatient": "660床",
+              "url": ""
+            },
+            {
+              "year": "福建省肿瘤医院",
+              "outpatient": "1651床",
+              "url": ""
+            },
+            {
+              "year": "福建省妇幼保健院",
+              "outpatient": "1651床",
+              "url": "http://10.120.100.41:9093/opr-all-in-one/outpatientFlowMonitor"
+            },
+            {
+              "year": "福建省儿童医院",
+              "outpatient": "542床",
+              "url": ""
+            },
+            {
+              "year": "福建省老年医院",
+              "outpatient": "500床",
+              "url": ""
+            },
+            {
+              "year": "福建省级机关医院",
+              "outpatient": "293床",
+              "url": ""
+            }
+          ],
+          "dataDefinition": {
+            "axisColumn": "AXIS",
+            "legendColumn": "LEGEND",
+            "showLegend": true,
+            "yAxes": [
+              {
+                "name": "万人",
+                "unit": "万人",
+                "showAxisLine": true
+              }
+            ],
+            "xAxes": [
+              {
+                "show": true,
+                "interval": 0
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 736,
+      "topPx": 228,
+      "widthPx": 656,
+      "heightPx": 792,
+      "zIndex": 13,
+      "panelId": 110045169,
+      "id": 110045169
+    },
+    {
+      "widthPx": 496,
+      "heightPx": 36,
+      "leftPx": 1400,
+      "topPx": 224,
+      "zIndex": 10,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "panel-title-fujian-5",
+          "titleText": "时间分布",
+          "titleText1": "",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110045172,
+      "id": 110045172
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "echarts-bar-line-v-23-3-fujian",
+          "queryId11": 110045179,
+          "queryId": 110044282,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "AXIS": "2014",
+              "VALUE": "2.00",
+              "VALUE1": "6",
+              "VALUE2": "20",
+              "LEGEND": "集中"
+            },
+            {
+              "AXIS": "2015",
+              "VALUE": "4.25",
+              "VALUE1": "8.17",
+              "VALUE2": 8,
+              "LEGEND": "私营"
+            },
+            {
+              "AXIS": "2016",
+              "VALUE": "4.25",
+              "VALUE1": "2.00",
+              "VALUE2": 4,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2017",
+              "VALUE": "6.00",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2018",
+              "VALUE": "9.25",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2019",
+              "VALUE": "5.00",
+              "VALUE1": "3.00",
+              "VALUE2": 9,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2020",
+              "VALUE": "9.00",
+              "VALUE1": "3.00",
+              "VALUE2": 8,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2021",
+              "VALUE": "1.00",
+              "VALUE1": "2.00",
+              "VALUE2": 6,
+              "LEGEND": ""
+            }
+          ],
+          "dataDefinition": {
+            "axisColumn": "AXIS",
+            "legendColumn": "LEGEND",
+            "unitColumn": "NAME",
+            "showLegend": true,
+            "yAxes": [
+              {
+                "name": "万人",
+                "unit": "万人",
+                "showAxisLine": true
+              }
+            ],
+            "xAxes": [
+              {
+                "show": true,
+                "interval": 0
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1400,
+      "topPx": 260,
+      "widthPx": 496,
+      "heightPx": 252,
+      "zIndex": 13,
+      "panelId": 110045179,
+      "id": 110045179
+    },
+    {
+      "widthPx": 168,
+      "heightPx": 44,
+      "leftPx": 48,
+      "topPx": 20,
+      "zIndex": 2001,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "toolbox-1",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "url": "#/dashboard-release/8440560",
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": true,
+        "popupId": 0
+      },
+      "panelId": 110045302,
+      "id": 110045302
+    },
+    {
+      "widthPx": 664,
+      "heightPx": 36,
+      "leftPx": 734,
+      "topPx": 224,
+      "zIndex": 10,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "panel-title-fujian-5",
+          "titleText": "地域分布",
+          "titleText1": "",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": true,
+        "popupId": 0
+      },
+      "panelId": 110045303,
+      "id": 110045303
+    },
+    {
+      "widthPx": 496,
+      "heightPx": 792,
+      "leftPx": 1400,
+      "topPx": 256,
+      "zIndex": 1,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "panel-fujian-2",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": true,
+        "popupId": 0
+      },
+      "panelId": 110045310,
+      "id": 110045310
+    },
+    {
+      "widthPx": 256,
+      "heightPx": 56,
+      "leftPx": 1656,
+      "topPx": 16,
+      "zIndex": 204,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "current-time-fujian",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": true,
+        "popupId": 0
+      },
+      "panelId": 110045316,
+      "id": 110045316
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "table-3-2-fujian",
+          "queryId": null,
+          "queryInterval": 3600000,
+          "pageSize": 15,
+          "backgroundOpacity": 0.1,
+          "showPagination": false,
+          "xhWidth": 110,
+          "columnWidths": {
+            "year": "340px",
+            "outpatient": "200px"
+          },
+          "defaultData": [
+            {
+              "year": "医院名称",
+              "outpatient": "万元以上设备数(台)"
+            },
+            {
+              "year": "福建医科大学附属第一医院",
+              "outpatient": "10940",
+              "url": ""
+            },
+            {
+              "year": "福州大学附属省立医院",
+              "outpatient": "7587",
+              "url": ""
+            },
+            {
+              "year": "福建医科大学附属协和医院",
+              "outpatient": "6371",
+              "url": ""
+            },
+            {
+              "year": "福建医科大学附属第二医院",
+              "outpatient": "5522",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属人民医院",
+              "outpatient": "3072",
+              "url": ""
+            },
+            {
+              "year": "福建省妇幼保健院",
+              "outpatient": "2962",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属第二人民医院",
+              "outpatient": "2660",
+              "url": ""
+            },
+            {
+              "year": "福建省肿瘤医院",
+              "outpatient": "2465",
+              "url": ""
+            },
+            {
+              "year": "福建省儿童医院",
+              "outpatient": "2133",
+              "url": ""
+            },
+            {
+              "year": "福建医科大学附属口腔医院",
+              "outpatient": "1747",
+              "url": ""
+            },
+            {
+              "year": "福建省老年医院",
+              "outpatient": "1005",
+              "url": ""
+            },
+            {
+              "year": "福建省级机关医院",
+              "outpatient": "926",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属康复医院",
+              "outpatient": "924",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属第三人民医院",
+              "outpatient": "632",
+              "url": ""
+            }
+          ],
+          "dataDefinition": {
+            "axisColumn": "AXIS",
+            "legendColumn": "LEGEND",
+            "showLegend": true,
+            "yAxes": [
+              {
+                "name": "万人",
+                "unit": "万人",
+                "showAxisLine": true
+              }
+            ],
+            "xAxes": [
+              {
+                "show": true,
+                "interval": 0
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 736,
+      "topPx": 224,
+      "widthPx": 656,
+      "heightPx": 792,
+      "zIndex": 13,
+      "panelId": 110045319,
+      "id": 110045319
+    },
+    {
+      "widthPx": 304,
+      "heightPx": 68,
+      "leftPx": 368,
+      "topPx": 972,
+      "zIndex": 2,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "text-name",
+          "fontSize": "16px",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "defaultData": [
+            {
+              "NAME": "医学检验实验室、病理诊断中心、医学影像诊断中心、血液透析中心、康复医疗中心、护理中心、消毒供应中心、健康体检中心"
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110045569,
+      "id": 110045569
+    },
+    {
+      "widthPx": 640,
+      "heightPx": 96,
+      "leftPx": 744,
+      "topPx": 948,
+      "zIndex": 2,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "text-introduction",
+          "fontSize": "16px",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "defaultData": [
+            {
+              "NAME": "本区域已形成以三级医院为龙头、二级医院为骨干、基层医疗机构为网底的医疗服务体系，医疗资源总量持续增长，结构不断优化，服务能力稳步提升。"
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": true,
+        "popupId": 0
+      },
+      "panelId": 110045626,
+      "id": 110045626
+    },
+    {
+      "widthPx": 256,
+      "heightPx": 36,
+      "leftPx": 352,
+      "topPx": 164,
+      "zIndex": 103,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "passtype",
+          "isSender": true,
+          "sendToPanelIds": [
+            110044307,
+            110044297,
+            110044285,
+            110044281
+          ]
+        },
+        "chart": {
+          "componentName": "tab-group-13",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 6e+23,
+          "defaultData": [
+            {
+              "text": "按级别",
+              "value": "1"
+            },
+            {
+              "text": "按等级",
+              "value": "2"
+            },
+            {
+              "text": "按专业",
+              "value": "3"
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": true,
+        "popupId": 0
+      },
+      "panelId": 110045709,
+      "id": 110045709
+    },
+    {
+      "widthPx": 48,
+      "heightPx": 40,
+      "leftPx": 1656,
+      "topPx": 168,
+      "zIndex": 2002,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "img-3-1-click-img",
+          "queryUrl": "",
+          "queryId": null,
+          "img": "img12",
+          "previewImageUrl": "~@/assets/charts-img/fujian/img-zonglan.png'",
+          "openId": "http://10.120.105.63:8061/CExam/#/ssoLogin?token=YWRtaW58YWRtaW4%3D",
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": true,
+        "popupId": 0
+      },
+      "panelId": 110045724,
+      "id": 110045724
+    },
+    {
+      "widthPx": 216,
+      "heightPx": 32,
+      "leftPx": 1168,
+      "topPx": 912,
+      "zIndex": 103,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "bigtype",
+          "isSender": true,
+          "sendToPanelIds": [
+            110045730,
+            110045731
+          ]
+        },
+        "chart": {
+          "componentName": "tab-group-12",
+          "queryUrl": "",
+          "queryId": null,
+          "hidden": false,
+          "queryInterval": 6e+23,
+          "defaultData": [
+            {
+              "text": "昨日",
+              "value": 1
+            },
+            {
+              "text": "按月",
+              "value": 2
+            },
+            {
+              "text": "按年",
+              "value": 3
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110045729,
+      "id": 110045729
+    },
+    {
+      "widthPx": 344,
+      "heightPx": 672,
+      "leftPx": 352,
+      "topPx": 168,
+      "zIndex": 101,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "querytime",
+          "isSender": true,
+          "sendToPanelIds": [
+            110045733,
+            110045732,
+            110045736,
+            110045737
+          ]
+        },
+        "chart": {
+          "componentName": "text-list-6-2",
+          "showBar": false,
+          "dividerLeft": "45%",
+          "queryUrl": "",
+          "queryId": 110045730,
+          "queryInterval": 6e+21,
+          "dataDefinition": {
+            "nameColumn": "name",
+            "valueColumn": "value",
+            "unitColumn": "unit",
+            "colorColumn": "color",
+            "flagColumn": "flag",
+            "linkColumn": "code",
+            "disabledColumn": "disabled",
+            "panelColumn": "panel"
+          },
+          "defaultData": [
+            {
+              "name": "全部",
+              "value": 3500,
+              "unit": "人次",
+              "color": "#007bff",
+              "flag": 1
+            },
+            {
+              "name": "三级医院",
+              "value": 890,
+              "unit": "人次",
+              "color": "#0AB0DE",
+              "flag": 0
+            },
+            {
+              "name": "二级医院",
+              "value": 1200,
+              "unit": "人次",
+              "color": "#28a745",
+              "flag": 0
+            },
+            {
+              "name": "一级医院",
+              "value": 650,
+              "unit": "人次",
+              "color": "#CEA427",
+              "flag": 0
+            },
+            {
+              "name": "未定级医院",
+              "value": 420,
+              "unit": "人次",
+              "color": "#fd7e14",
+              "flag": 0
+            },
+            {
+              "name": "基层机构",
+              "value": 280,
+              "unit": "人次",
+              "color": "#dc3545",
+              "flag": 0
+            },
+            {
+              "name": "诊所门诊部",
+              "value": 450,
+              "unit": "人次",
+              "color": "#ffc107",
+              "flag": 0
+            },
+            {
+              "name": "125",
+              "value": "",
+              "unit": "",
+              "color": "#ffc107",
+              "flag": 0,
+              "disabled": "no"
+            }
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110045730,
+      "id": 110045730
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "querytime"
+        },
+        "chart": {
+          "componentName": "echarts-pie-6-4-fujian",
+          "queryInterval": 60000,
+          "queryId": 110045731,
+          "defaultData": [
+            {
+              "VALUE": 172,
+              "NAME": "肾脏内科",
+              "PCT": 31.1
+            },
+            {
+              "VALUE": 75,
+              "NAME": "血液内科",
+              "PCT": 13.56
+            },
+            {
+              "VALUE": 61,
+              "NAME": "消化内科",
+              "PCT": 11.03
+            },
+            {
+              "VALUE": 86,
+              "NAME": "呼吸内科",
+              "PCT": 15.55
+            },
+            {
+              "VALUE": 35,
+              "NAME": "内分泌科",
+              "PCT": 6.32
+            },
+            {
+              "VALUE": 124,
+              "NAME": "传染病学",
+              "PCT": 22.42
+            }
+          ],
+          "dataDefinition": {
+            "valueColumn": "value",
+            "nameColumn": "name",
+            "percentColumn": "PCT",
+            "unit": "",
+            "title": ""
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 344,
+      "topPx": 848,
+      "widthPx": 360,
+      "heightPx": 200,
+      "zIndex": 200,
+      "panelId": 110045731,
+      "id": 110045731
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "map-fujian-2-1",
+          "queryInterval": 600000,
+          "regionLevelKey": "regionLevel",
+          "queryId": 110045732,
+          "drillDownEnabled": false,
+          "defaultData": [
+            {
+              "REGION_NAME": "省属",
+              "UNIT": "人次",
+              "REGION_CODE": "359900",
+              "VALUE1": "60989",
+              "VALUE2": "75635"
+            },
+            {
+              "REGION_NAME": "南平市",
+              "UNIT": "人次",
+              "REGION_CODE": "350700",
+              "VALUE1": "60989",
+              "VALUE2": "75635"
+            },
+            {
+              "REGION_NAME": "宁德市",
+              "UNIT": "人次",
+              "REGION_CODE": "350900",
+              "VALUE1": "15023",
+              "VALUE2": "76396"
+            },
+            {
+              "REGION_NAME": "福州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350100",
+              "VALUE1": "151",
+              "VALUE2": "39247"
+            },
+            {
+              "REGION_NAME": "平潭综合实验区",
+              "UNIT": "人次",
+              "REGION_CODE": "350128",
+              "VALUE1": "151",
+              "VALUE2": "39247"
+            },
+            {
+              "REGION_NAME": "莆田市",
+              "UNIT": "人次",
+              "REGION_CODE": "350300",
+              "VALUE1": "34459",
+              "VALUE2": "61279"
+            },
+            {
+              "REGION_NAME": "泉州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350500",
+              "VALUE1": "92996",
+              "VALUE2": "76343"
+            },
+            {
+              "REGION_NAME": "厦门市",
+              "UNIT": "人次",
+              "REGION_CODE": "350200",
+              "VALUE1": "59683",
+              "VALUE2": "30008"
+            },
+            {
+              "REGION_NAME": "漳州市",
+              "UNIT": "人次",
+              "REGION_CODE": "350600",
+              "VALUE1": "33118",
+              "VALUE2": "27875"
+            },
+            {
+              "REGION_NAME": "三明市",
+              "UNIT": "人次",
+              "REGION_CODE": "350400",
+              "VALUE1": "34880",
+              "VALUE2": "58984"
+            },
+            {
+              "REGION_NAME": "龙岩市",
+              "UNIT": "人次",
+              "REGION_CODE": "350800",
+              "VALUE1": "64102",
+              "VALUE2": "355"
+            }
+          ],
+          "dataDefinition": {
+            "valueColumn": "VALUE1",
+            "regionNameColumn": "REGION_NAME",
+            "regionCodeColumn": "REGION_CODE",
+            "unitColumn": "UNIT",
+            "highlightColor": "#FFA500",
+            "visualMap": [
+              {
+                "color": "rgba(0,0,92,0.8)",
+                "name": "高",
+                "quantile": [
+                  0.8,
+                  1
+                ]
+              },
+              {
+                "color": "rgba(0,57,170,0.8)",
+                "name": "中",
+                "quantile": [
+                  0.5,
+                  0.8
+                ]
+              },
+              {
+                "color": "rgba(0,115,254,0.9)",
+                "name": "低",
+                "quantile": [
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleIcon": "dash",
+        "isSmallTitle": false,
+        "color": "purple",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "moved": false,
+      "static": true,
+      "leftPx": 728,
+      "topPx": 272,
+      "widthPx": 664,
+      "heightPx": 672,
+      "zIndex": 19,
+      "panelId": 110045732,
+      "id": 110045732
+    },
+    {
+      "widthPx": 608,
+      "heightPx": 40,
+      "leftPx": 776,
+      "topPx": 164,
+      "zIndex": 10,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "medtype"
+        },
+        "chart": {
+          "componentName": "panel-title-fujian-5-2",
+          "dataDefinition": {
+            "valueColumn": "value1",
+            "value1Column": "value2"
+          },
+          "titleText": "门急诊人次",
+          "queryUrl": "",
+          "queryId": 110045733,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110045733,
+      "id": 110045733
+    },
+    {
+      "widthPx": 664,
+      "heightPx": 36,
+      "leftPx": 728,
+      "topPx": 224,
+      "zIndex": 10,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "panel-title-fujian-5",
+          "titleText": "地域分布",
+          "titleText1": "",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110045734,
+      "id": 110045734
+    },
+    {
+      "widthPx": 496,
+      "heightPx": 40,
+      "leftPx": 1400,
+      "topPx": 224,
+      "zIndex": 10,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "chart": {
+          "componentName": "panel-title-fujian-5",
+          "titleText": "时间分布",
+          "titleText1": "",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "defaultData": []
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110045735,
+      "id": 110045735
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "regionCodeLink"
+        },
+        "chart": {
+          "componentName": "echarts-bar-line-v-23-3-2-fujian",
+          "queryId": 110045736,
+          "queryInterval": 3600000,
+          "axiosRotate": 30,
+          "backgroundOpacity": 0.1,
+          "grid": [
+            {
+              "x": 40,
+              "y": 50,
+              "x2": 10,
+              "y2": 20,
+              "containLabel": true
+            }
+          ],
+          "defaultData": [
+            {
+              "AXIS": "20141123",
+              "VALUE": "2.00",
+              "VALUE1": "6",
+              "VALUE2": "20",
+              "LEGEND": "集中"
+            },
+            {
+              "AXIS": "2015",
+              "VALUE": "4.25",
+              "VALUE1": "8.17",
+              "VALUE2": 8,
+              "LEGEND": "私营"
+            },
+            {
+              "AXIS": "2016",
+              "VALUE": "4.25",
+              "VALUE1": "2.00",
+              "VALUE2": 4,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2017",
+              "VALUE": "6.00",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2018",
+              "VALUE": "9.25",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2019",
+              "VALUE": "5.00",
+              "VALUE1": "3.00",
+              "VALUE2": 9,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2020",
+              "VALUE": "9.00",
+              "VALUE1": "3.00",
+              "VALUE2": 8,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2021",
+              "VALUE": "1.00",
+              "VALUE1": "2.00",
+              "VALUE2": 6,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2016",
+              "VALUE": "4.25",
+              "VALUE1": "2.00",
+              "VALUE2": 4,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2017",
+              "VALUE": "6.00",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2018",
+              "VALUE": "9.25",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2019",
+              "VALUE": "5.00",
+              "VALUE1": "3.00",
+              "VALUE2": 9,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2020",
+              "VALUE": "9.00",
+              "VALUE1": "3.00",
+              "VALUE2": 8,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2021",
+              "VALUE": "1.00",
+              "VALUE1": "2.00",
+              "VALUE2": 6,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2016",
+              "VALUE": "4.25",
+              "VALUE1": "2.00",
+              "VALUE2": 4,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2017",
+              "VALUE": "6.00",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2018",
+              "VALUE": "9.25",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2019",
+              "VALUE": "5.00",
+              "VALUE1": "3.00",
+              "VALUE2": 9,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2020",
+              "VALUE": "9.00",
+              "VALUE1": "3.00",
+              "VALUE2": 8,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2021",
+              "VALUE": "1.00",
+              "VALUE1": "2.00",
+              "VALUE2": 6,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2016",
+              "VALUE": "4.25",
+              "VALUE1": "2.00",
+              "VALUE2": 4,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2017",
+              "VALUE": "6.00",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2018",
+              "VALUE": "9.25",
+              "VALUE1": "8.17",
+              "VALUE2": 5,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2019",
+              "VALUE": "5.00",
+              "VALUE1": "3.00",
+              "VALUE2": 9,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2020",
+              "VALUE": "9.00",
+              "VALUE1": "3.00",
+              "VALUE2": 8,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2021",
+              "VALUE": "1.00",
+              "VALUE1": "2.00",
+              "VALUE2": 6,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2020",
+              "VALUE": "9.00",
+              "VALUE1": "3.00",
+              "VALUE2": 8,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2021",
+              "VALUE": "1.00",
+              "VALUE1": "2.00",
+              "VALUE2": 6,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "2020",
+              "VALUE": "9.00",
+              "VALUE1": "3.00",
+              "VALUE2": 8,
+              "LEGEND": ""
+            },
+            {
+              "AXIS": "99888888",
+              "VALUE": "1.00",
+              "VALUE1": "2.00",
+              "VALUE2": 6,
+              "LEGEND": ""
+            }
+          ],
+          "dataDefinition": {
+            "axisColumn": "AXIS",
+            "legendColumn": "LEGEND",
+            "unitColumn": "NAME",
+            "showLegend": true,
+            "yAxes": [
+              {
+                "name": "万人",
+                "unit": "万人",
+                "showAxisLine": true
+              }
+            ],
+            "xAxes": [
+              {
+                "show": true,
+                "interval": 0
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1400,
+      "topPx": 264,
+      "widthPx": 496,
+      "heightPx": 208,
+      "zIndex": 13,
+      "panelId": 110045736,
+      "id": 110045736
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "regionCodeLink"
+        },
+        "chart": {
+          "componentName": "table-1-3-fujian",
+          "queryId": 110045737,
+          "queryInterval": 3600000,
+          "backgroundOpacity": 0.1,
+          "defaultData": [
+            {
+              "year": "时间",
+              "outpatient": "门诊"
+            },
+            {
+              "year": "2024年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2023年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2022年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2021年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2024年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2023年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2022年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2021年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2024年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2023年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2022年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2021年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2024年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2023年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2022年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2021年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2024年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2023年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2022年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2021年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2024年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2023年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2022年",
+              "outpatient": "123456人次"
+            },
+            {
+              "year": "2021年",
+              "outpatient": "123456人次"
+            }
+          ],
+          "dataDefinition": {}
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 1400,
+      "topPx": 472,
+      "widthPx": 512,
+      "heightPx": 568,
+      "zIndex": 13,
+      "panelId": 110045737,
+      "id": 110045737
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "regionCodeLink"
+        },
+        "chart": {
+          "componentName": "echarts-drill-down-map-19",
+          "queryInterval": 60000,
+          "queryId": 110045738,
+          "regionCodeKey": "regionCodeLink",
+          "drillDownEnabled": false,
+          "hasTooltip": false,
+          "hasLabel": true,
+          "defaultData": [
+            {
+              "REGION_NAME": "鼓楼区",
+              "UNIT": "人次",
+              "REGION_CODE": "350102",
+              "VALUE1": "60989"
+            }
+          ],
+          "dataDefinition": {
+            "valueColumn": "VALUE1",
+            "regionNameColumn": "REGION_NAME",
+            "regionCodeColumn": "REGION_CODE",
+            "unitColumn": "UNIT",
+            "highlightColor": "#FFA500",
+            "visualMap": [
+              {
+                "color": "#005DF3",
+                "name": "高",
+                "quantile": [
+                  0.8,
+                  1
+                ]
+              },
+              {
+                "color": "#5595F5",
+                "name": "中",
+                "quantile": [
+                  0.3,
+                  0.8
+                ]
+              },
+              {
+                "color": "#BAD8F7",
+                "name": "低",
+                "quantile": [
+                  0,
+                  0.3
+                ]
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleIcon": "dash",
+        "isSmallTitle": false,
+        "color": "purple",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "moved": false,
+      "static": true,
+      "leftPx": 744,
+      "topPx": 256,
+      "widthPx": 648,
+      "heightPx": 448,
+      "zIndex": 19,
+      "panelId": 110045738,
+      "id": 110045738
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "regionCodeLink"
+        },
+        "chart": {
+          "componentName": "two-column-table",
+          "queryId": 110045739,
+          "queryInterval": 0,
+          "defaultData": [
+            {
+              "name": "鼓楼区",
+              "value": 381,
+              "unit": "人次"
+            },
+            {
+              "name": "鼓楼区",
+              "value": 381,
+              "unit": "人次"
+            },
+            {
+              "name": "鼓楼区",
+              "value": 381,
+              "unit": "人次"
+            },
+            {
+              "name": "鼓楼区",
+              "value": 381,
+              "unit": "人次"
+            },
+            {
+              "name": "鼓楼区",
+              "value": 381,
+              "unit": "人次"
+            },
+            {
+              "name": "鼓楼区",
+              "value": 381,
+              "unit": "人次"
+            },
+            {
+              "name": "鼓楼区",
+              "value": 381,
+              "unit": "人次"
+            },
+            {
+              "name": "鼓楼区",
+              "value": 381,
+              "unit": "人次"
+            },
+            {
+              "name": "鼓楼区",
+              "value": 381,
+              "unit": "人次"
+            },
+            {
+              "name": "鼓楼区",
+              "value": 381,
+              "unit": "人次"
+            }
+          ],
+          "dataDefinition": {
+            "nameColumn": "name",
+            "valueColumn": "value",
+            "unitColumn": "unit"
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 736,
+      "topPx": 704,
+      "widthPx": 664,
+      "heightPx": 208,
+      "zIndex": 13,
+      "panelId": 110045739,
+      "id": 110045739
+    },
+    {
+      "layout": "grid-layout",
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "querytime"
+        },
+        "chart": {
+          "componentName": "table-3-5-fujian",
+          "queryId": 110045740,
+          "queryInterval": 3600000,
+          "pageSize": 15,
+          "xhWidth": 100,
+          "backgroundOpacity": 0.1,
+          "showPagination": false,
+          "paddingV": "10px",
+          "columnWidths": {
+            "year": "300px",
+            "outpatient": "240px"
+          },
+          "defaultData": [
+            {
+              "year": "医疗机构名称"
+            },
+            {
+              "year": "福州大学附属省立医院",
+              "outpatient": "3421床",
+              "url": ""
+            },
+            {
+              "year": "福建医科大学附属协和医院",
+              "outpatient": "3579床",
+              "url": ""
+            },
+            {
+              "year": "福建医科大学附属第一医院",
+              "outpatient": "3393床",
+              "url": ""
+            },
+            {
+              "year": "福建医科大学附属第二医院",
+              "outpatient": "1003床",
+              "url": ""
+            },
+            {
+              "year": "福建医科大学附属口腔医院",
+              "outpatient": "21床",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属人民医院",
+              "outpatient": "1248床",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属第二人民医院",
+              "outpatient": "2195床",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属第三人民医院",
+              "outpatient": "488床",
+              "url": ""
+            },
+            {
+              "year": "福建中医药大学附属康复医院",
+              "outpatient": "660床",
+              "url": ""
+            },
+            {
+              "year": "福建省肿瘤医院",
+              "outpatient": "1651床",
+              "url": ""
+            },
+            {
+              "year": "福建省妇幼保健院",
+              "outpatient": "1651床",
+              "url": "http://10.120.100.41:9093/opr-all-in-one/outpatientFlowMonitor"
+            },
+            {
+              "year": "福建省儿童医院",
+              "outpatient": "542床",
+              "url": ""
+            },
+            {
+              "year": "福建省老年医院",
+              "outpatient": "500床",
+              "url": ""
+            },
+            {
+              "year": "福建省级机关医院",
+              "outpatient": "293床",
+              "url": ""
+            }
+          ],
+          "dataDefinition": {
+            "axisColumn": "AXIS",
+            "legendColumn": "LEGEND",
+            "showLegend": true,
+            "yAxes": [
+              {
+                "name": "万人",
+                "unit": "万人",
+                "showAxisLine": true
+              }
+            ],
+            "xAxes": [
+              {
+                "show": true,
+                "interval": 0
+              }
+            ]
+          }
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "white",
+        "visible": false,
+        "popupId": 0,
+        "dropdown": {}
+      },
+      "leftPx": 736,
+      "topPx": 224,
+      "widthPx": 648,
+      "heightPx": 808,
+      "zIndex": 13,
+      "panelId": 110045740,
+      "id": 110045740
+    },
+    {
+      "widthPx": 48,
+      "heightPx": 36,
+      "leftPx": 728,
+      "topPx": 164,
+      "zIndex": 10,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "bigtype",
+          "isSender": true,
+          "sendToPanelIds": [
+            110045709
+          ]
+        },
+        "chart": {
+          "componentName": "panel-title-fujian-5-2-img-click",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "dataDefinition": [],
+          "show1Panel": [
+            110044281
+          ],
+          "show2Panel": [
+            110044285
+          ],
+          "hide1Panel": [
+            110044285
+          ],
+          "hide2Panel": [
+            110044281
+          ],
+          "defaultData": [
+            {}
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110046813,
+      "id": 110046813
+    },
+    {
+      "widthPx": 48,
+      "heightPx": 36,
+      "leftPx": 728,
+      "topPx": 164,
+      "zIndex": 10,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "bigtype",
+          "isSender": true,
+          "sendToPanelIds": [
+            110045709
+          ]
+        },
+        "chart": {
+          "componentName": "panel-title-fujian-5-2-img-click",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "dataDefinition": [],
+          "show1Panel": [
+            110044281
+          ],
+          "hide1Panel": [
+            110044285
+          ],
+          "show2Panel": [
+            110044285
+          ],
+          "hide2Panel": [
+            110044281
+          ],
+          "defaultData": [
+            {}
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": false,
+        "popupId": 0
+      },
+      "panelId": 110046876,
+      "id": 110046876
+    },
+    {
+      "widthPx": 37,
+      "heightPx": 37,
+      "leftPx": 735,
+      "topPx": 166,
+      "zIndex": 10,
+      "content": {
+        "componentName": "dashboard-panel-default",
+        "linkConfig": {
+          "isReceiver": true,
+          "queryParameterKeyOfReceivedValue": "bigtype",
+          "isSender": true,
+          "sendToPanelIds": [
+            110045709
+          ]
+        },
+        "chart": {
+          "componentName": "panel-title-fujian-5-2-img-click",
+          "queryUrl": "",
+          "queryId": null,
+          "queryInterval": 60000,
+          "dataDefinition": [],
+          "show1Panel": [],
+          "show2Panel": [],
+          "hide1Panel": [],
+          "hide2Panel": [],
+          "defaultData": [
+            {}
+          ]
+        },
+        "titleText": "",
+        "titleStyle": "|",
+        "border": "",
+        "color": "blue",
+        "visible": true,
+        "popupId": 0
+      },
+      "panelId": 110046907,
+      "id": 110046907
+    }
+  ],
+  "dataStatusMask": {
+    "loading": "data-status-mask-loading-new",
+    "failed": "",
+    "empty": ""
+  },
+  "userRegionInfoToQueryParametersMap": {
+    "regionName": "regionName",
+    "regionLevel": "regionLevel",
+    "regionCode": "regionCode"
+  },
+  "popups": [
+    {
+      "componentName": "popup-container-default",
+      "id": 1,
+      "width": 1500,
+      "height": 600,
+      "title": "重复码",
+      "formItems": [],
+      "queryParameters": {},
+      "panels": [
+        {
+          "position": {
+            "left": 0,
+            "top": 0,
+            "width": 1400,
+            "height": 550
+          },
+          "id": 12,
+          "componentName": "popup-panel-default",
+          "isShown": true,
+          "chart": {
+            "componentName": "table-1",
+            "queryInterval": 60000,
+            "queryId": 9922,
+            "dataDefinition": {
+              "usePagination": false,
+              "exportFileName": "",
+              "useExporter": false,
+              "exportLabel": "",
+              "pageGroupSize": 9,
+              "horizontalScrollable": true,
+              "rowCountPerPage": 10,
+              "useSum": false,
+              "defaultOrder": {
+                "columnUniqueName": "",
+                "ascending": true
+              },
+              "tableColumns": [
+                {
+                  "align": "center",
+                  "reorderable": false,
+                  "summable": false,
+                  "colorful": false,
+                  "uniqueName": "追溯码",
+                  "width": 200,
+                  "autoGrow": false,
+                  "unit": "",
+                  "dataColumn": "VALUE1",
+                  "fixed": true
+                },
+                {
+                  "align": "center",
+                  "reorderable": false,
+                  "summable": false,
+                  "colorful": false,
+                  "uniqueName": "销售时间",
+                  "width": 200,
+                  "autoGrow": false,
+                  "unit": "",
+                  "dataColumn": "VALUE2"
+                },
+                {
+                  "align": "center",
+                  "reorderable": false,
+                  "summable": false,
+                  "colorful": false,
+                  "uniqueName": "上传时间",
+                  "width": 200,
+                  "autoGrow": false,
+                  "unit": "",
+                  "dataColumn": "VALUE3"
+                },
+                {
+                  "align": "center",
+                  "reorderable": false,
+                  "summable": false,
+                  "colorful": false,
+                  "uniqueName": "定点名称",
+                  "width": 300,
+                  "autoGrow": false,
+                  "unit": "",
+                  "dataColumn": "VALUE4"
+                }
+              ]
+            },
+            "defaultData": []
+          }
+        }
+      ]
+    }
+  ],
+  "isRealtime": false,
+  "autoplay": false,
+  "wsHost": false,
+  "timeComponent": "",
+  "fullScreenComponent": "",
+  "mainMenuComponent": "",
+  "returnDashboardIds": [
+    -1
+  ]
+}
